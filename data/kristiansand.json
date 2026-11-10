@@ -378,7 +378,7 @@
       "gratis": true,
       "id": "krsbib-brettspillkveld-2-2026-11-12",
       "kategorier": [
-        "annet"
+        "spill"
       ],
       "kilde_navn": "Kristiansand folkebibliotek",
       "kilde_url": "https://krsbib.no/arrangementer/lek-og-moro/brettspillkveld-2",
@@ -506,20 +506,20 @@
       "kategorier": [
         "humor"
       ],
-      "kilde_navn": "Kultur i kveld",
-      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/liveshow-med-spaartsklubben/PcPXvN",
+      "kilde_navn": "KRS Live",
+      "kilde_url": "https://www.krslive.no/arrangement/spartsklubben",
       "pris": "580–680 kr",
       "sist_sjekket": "2026-11-10",
       "slutt_dato": null,
-      "status": "må_sjekkes",
+      "status": "bekreftet",
       "sted": "KRS Live",
       "tider": [
         {
-          "billett": null,
+          "billett": "ledig",
           "kl": "18:00"
         },
         {
-          "billett": null,
+          "billett": "ledig",
           "kl": "21:00"
         }
       ],
@@ -778,7 +778,8 @@
       "gratis": null,
       "id": "sk-43384438-2026-11-13",
       "kategorier": [
-        "konsert"
+        "konsert",
+        "kirke"
       ],
       "kilde_navn": "Kvadraturen",
       "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
@@ -818,6 +819,25 @@
         }
       ],
       "tittel": "På grensen til allsang"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Konsert med det norske progressive metalbandet.",
+      "dato": "2026-11-13",
+      "gratis": null,
+      "id": "nk-communic-kick-2026-11-13",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Norske kalendere",
+      "kilde_url": "https://norskekalendere.no/konsertkalender/metal/communic-kick-kulturhus/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Kick Scene",
+      "tider": [],
+      "tittel": "Communic"
     },
     {
       "aldersgruppe": null,
@@ -945,12 +965,12 @@
       "kategorier": [
         "annet"
       ],
-      "kilde_navn": "Kvadraturen",
-      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "kilde_navn": "KRS Live",
+      "kilde_url": "https://www.krslive.no/arrangement/singalong-brunch",
       "pris": null,
       "sist_sjekket": "2026-11-10",
       "slutt_dato": null,
-      "status": "må_sjekkes",
+      "status": "avlyst",
       "sted": "KRS Live",
       "tider": [
         {
@@ -958,7 +978,7 @@
           "kl": "13:00"
         }
       ],
-      "tittel": "Sing it Brunch"
+      "tittel": "Singalong brunch"
     },
     {
       "aldersgruppe": "familie",
@@ -1113,7 +1133,8 @@
       "gratis": null,
       "id": "jb-paal-flaata-2026-11-14",
       "kategorier": [
-        "konsert"
+        "konsert",
+        "kirke"
       ],
       "kilde_navn": "Kvadraturen",
       "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
@@ -1139,20 +1160,44 @@
       "kategorier": [
         "konsert"
       ],
-      "kilde_navn": "Kultur i kveld",
-      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/vamp/YjmFET",
+      "kilde_navn": "KRS Live",
+      "kilde_url": "https://www.krslive.no/arrangement/vamp",
       "pris": "650 kr",
       "sist_sjekket": "2026-11-10",
       "slutt_dato": null,
-      "status": "må_sjekkes",
+      "status": "bekreftet",
       "sted": "KRS Live",
       "tider": [
         {
-          "billett": null,
+          "billett": "ledig",
           "kl": "19:00"
         }
       ],
       "tittel": "Vamp"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Rockkonsert på Teaterets hovedscene.",
+      "dato": "2026-11-14",
+      "gratis": null,
+      "id": "nk-anders-munch-teateret-2026-11-14",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Norske kalendere",
+      "kilde_url": "https://norskekalendere.no/konsertkalender/rock/anders-munch-og-broderskabet-teateret/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:30"
+        }
+      ],
+      "tittel": "Anders Munch og Broderskabet"
     },
     {
       "aldersgruppe": null,
@@ -1675,16 +1720,16 @@
       "kategorier": [
         "annet"
       ],
-      "kilde_navn": "Kultur i kveld",
-      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/hvis-gud-vil/s6Mwn8",
+      "kilde_navn": "KRS Live",
+      "kilde_url": "https://www.krslive.no/arrangement/hvis-gud-vil",
       "pris": "620 kr",
       "sist_sjekket": "2026-11-10",
       "slutt_dato": null,
-      "status": "må_sjekkes",
+      "status": "bekreftet",
       "sted": "KRS Live",
       "tider": [
         {
-          "billett": null,
+          "billett": "ledig",
           "kl": "21:00"
         }
       ],
@@ -2097,7 +2142,8 @@
       "id": "jb-lys-i-morket-2026-11-21",
       "kategorier": [
         "konsert",
-        "jul"
+        "jul",
+        "kirke"
       ],
       "kilde_navn": "Kvadraturen",
       "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
@@ -2291,7 +2337,8 @@
       "gratis": false,
       "id": "kilden-48092-2026-11-22",
       "kategorier": [
-        "klassisk"
+        "klassisk",
+        "kirke"
       ],
       "kilde_navn": "Kilden",
       "kilde_url": "https://kilden.com/en/program/48092-kammerkonserter-i-agder-vagsbygd-kirke/",
@@ -2365,16 +2412,16 @@
       "kategorier": [
         "annet"
       ],
-      "kilde_navn": "Kvadraturen",
-      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "kilde_navn": "KRS Live",
+      "kilde_url": "https://www.krslive.no/arrangement/foredrag-med-asne-seierstad",
       "pris": null,
       "sist_sjekket": "2026-11-10",
       "slutt_dato": null,
-      "status": "må_sjekkes",
+      "status": "bekreftet",
       "sted": "KRS Live",
       "tider": [
         {
-          "billett": null,
+          "billett": "ledig",
           "kl": "19:00"
         }
       ],
@@ -3137,17 +3184,17 @@
       "kategorier": [
         "annet"
       ],
-      "kilde_navn": "Kultur i kveld",
-      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/wallmans-on-tour/zfPrcw",
+      "kilde_navn": "KRS Live",
+      "kilde_url": "https://www.krslive.no/arrangement/wallmans-on-tour",
       "pris": "1 810 kr",
       "sist_sjekket": "2026-11-10",
       "slutt_dato": null,
-      "status": "må_sjekkes",
+      "status": "bekreftet",
       "sted": "KRS Live",
       "tider": [
         {
-          "billett": null,
-          "kl": "19:30"
+          "billett": "utsolgt",
+          "kl": "19:00"
         }
       ],
       "tittel": "Wallmans On Tour"
@@ -3731,13 +3778,39 @@
       "tittel": "Omvisning i historisk juletreutstilling"
     },
     {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Juleforestilling for hele familien i sjørøverteateret i Kaptein Sabeltanns Verden.",
+      "dato": "2026-11-29",
+      "gratis": false,
+      "id": "dyreparken-julevariete-2026-11-29",
+      "kategorier": [
+        "familie",
+        "jul",
+        "scene"
+      ],
+      "kilde_navn": "Dyreparken",
+      "kilde_url": "https://www.dyreparken.no/opplevelser/familiens-magiske-julevariete/",
+      "pris": "399–599 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Dyreparken · Kaptein Sabeltanns Kongelige Sjørøverteater",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "15:00"
+        }
+      ],
+      "tittel": "Familiens Magiske Julevarieté"
+    },
+    {
       "aldersgruppe": null,
       "beskrivelse": "Eliteserien, hjemmekamp.",
       "dato": "2026-11-29",
       "gratis": false,
       "id": "ikstart-sarpsborg08-2026-11-29",
       "kategorier": [
-        "annet"
+        "sport"
       ],
       "kilde_navn": "IK Start",
       "kilde_url": "https://www.ikstart.no/terminliste",
@@ -3831,6 +3904,30 @@
         }
       ],
       "tittel": "Bjøro og Miriam adventskonsert"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Sluttspill i Magic: The Gathering (draft) for de åtte beste i ligaen.",
+      "dato": "2026-12-01",
+      "gratis": null,
+      "id": "gamezone-39710-2026-12-01",
+      "kategorier": [
+        "spill"
+      ],
+      "kilde_navn": "Unity League (Gamezone)",
+      "kilde_url": "https://unityleague.gg/events/39710/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Gamezone Arena",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Finale i Gamezone Draft League"
     },
     {
       "aldersgruppe": "familie",
@@ -4189,7 +4286,7 @@
       "gratis": true,
       "id": "krsbib-brettspillkveld-3-2026-12-03",
       "kategorier": [
-        "annet"
+        "spill"
       ],
       "kilde_navn": "Kristiansand folkebibliotek",
       "kilde_url": "https://krsbib.no/arrangementer/lek-og-moro/brettspillkveld-3",
@@ -4289,7 +4386,8 @@
       "id": "kilden-45960-2026-12-03",
       "kategorier": [
         "klassisk",
-        "jul"
+        "jul",
+        "kirke"
       ],
       "kilde_navn": "Kilden",
       "kilde_url": "https://kilden.com/en/program/45960-bachs-juleoratorium/",
@@ -4340,16 +4438,16 @@
         "konsert",
         "jul"
       ],
-      "kilde_navn": "Kultur i kveld",
-      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/the-christmas-orchestra/D5gnPs",
+      "kilde_navn": "KRS Live",
+      "kilde_url": "https://www.krslive.no/arrangement/the-christmas-orchestra",
       "pris": "705–780 kr",
       "sist_sjekket": "2026-11-10",
       "slutt_dato": null,
-      "status": "må_sjekkes",
+      "status": "bekreftet",
       "sted": "KRS Live",
       "tider": [
         {
-          "billett": null,
+          "billett": "ledig",
           "kl": "19:00"
         }
       ],
@@ -4567,7 +4665,8 @@
       "gratis": null,
       "id": "sk-43455740-2026-12-04",
       "kategorier": [
-        "konsert"
+        "konsert",
+        "kirke"
       ],
       "kilde_navn": "Kvadraturen",
       "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
@@ -4591,7 +4690,8 @@
       "gratis": null,
       "id": "sk-43231367-2026-12-04",
       "kategorier": [
-        "konsert"
+        "konsert",
+        "kirke"
       ],
       "kilde_navn": "Songkick",
       "kilde_url": "https://songkick.com/concerts/43231367-garness-at-vagsbygd-kirke-vagsbygd",
@@ -4819,7 +4919,8 @@
       "id": "jb-janitsjar-2026-12-05",
       "kategorier": [
         "konsert",
-        "jul"
+        "jul",
+        "kirke"
       ],
       "kilde_navn": "Kvadraturen",
       "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
@@ -4899,16 +5000,16 @@
         "humor",
         "jul"
       ],
-      "kilde_navn": "Kultur i kveld",
-      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/julegalla/kQkrLK",
+      "kilde_navn": "KRS Live",
+      "kilde_url": "https://www.krslive.no/arrangement/julegalla",
       "pris": "595 kr",
       "sist_sjekket": "2026-11-10",
       "slutt_dato": null,
-      "status": "må_sjekkes",
+      "status": "bekreftet",
       "sted": "KRS Live",
       "tider": [
         {
-          "billett": null,
+          "billett": "ledig",
           "kl": "19:00"
         }
       ],
@@ -5018,6 +5119,32 @@
     },
     {
       "aldersgruppe": "familie",
+      "beskrivelse": "Juleforestilling for hele familien i sjørøverteateret i Kaptein Sabeltanns Verden.",
+      "dato": "2026-12-06",
+      "gratis": false,
+      "id": "dyreparken-julevariete-2026-12-06",
+      "kategorier": [
+        "familie",
+        "jul",
+        "scene"
+      ],
+      "kilde_navn": "Dyreparken",
+      "kilde_url": "https://www.dyreparken.no/opplevelser/familiens-magiske-julevariete/",
+      "pris": "399–599 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Dyreparken · Kaptein Sabeltanns Kongelige Sjørøverteater",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "15:00"
+        }
+      ],
+      "tittel": "Familiens Magiske Julevarieté"
+    },
+    {
+      "aldersgruppe": "familie",
       "beskrivelse": null,
       "dato": "2026-12-06",
       "gratis": true,
@@ -5040,6 +5167,30 @@
         }
       ],
       "tittel": "Gratis julefilm for barna"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Sluttspill i Magic: The Gathering (Standard) for de åtte beste i ligaen.",
+      "dato": "2026-12-06",
+      "gratis": null,
+      "id": "gamezone-39870-2026-12-06",
+      "kategorier": [
+        "spill"
+      ],
+      "kilde_navn": "Unity League (Gamezone)",
+      "kilde_url": "https://unityleague.gg/events/39870/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Gamezone Arena",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Finale i Gamezone Standard League"
     },
     {
       "aldersgruppe": "familie",
@@ -5098,7 +5249,8 @@
       "id": "jb-alle-byens-kor-2026-12-06",
       "kategorier": [
         "konsert",
-        "jul"
+        "jul",
+        "kirke"
       ],
       "kilde_navn": "Kvadraturen",
       "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
@@ -5124,7 +5276,8 @@
       "kategorier": [
         "konsert",
         "klassisk",
-        "jul"
+        "jul",
+        "kirke"
       ],
       "kilde_navn": "Kilden",
       "kilde_url": "https://kilden.com/en/program/50932-jul-med-kilden-vokalensemble/",
@@ -5702,7 +5855,8 @@
       "id": "jb-holy-jam-2026-12-10",
       "kategorier": [
         "konsert",
-        "jul"
+        "jul",
+        "kirke"
       ],
       "kilde_navn": "Kvadraturen",
       "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
@@ -5723,38 +5877,101 @@
   "kilder": [
     {
       "antall": 67,
-      "merknad": "Eget program lest til 12. desember. Tre nye produksjoner 10. desember; billettstatus endret for Heavy Breathers, Janove, Ein slags julekonsert og Sissels jul. Ved Secret Garden kl. 20:30 oppgir arrangementssiden feil ukedag («tirsdag»); programmet sier torsdag 10. desember.",
+      "merknad": "Program lest til 10. desember; billettstatus oppdatert. Kammerkonserter i Mandal og Bykle utelatt.",
       "navn": "Kilden",
       "status": "ok",
       "url": "https://kilden.com/en/program/"
     },
     {
+      "antall": 8,
+      "merknad": "Programmet og arrangementssidene lest; 7 arrangementer bekreftet, Singalong brunch 14. november er avlyst.",
+      "navn": "KRS Live",
+      "status": "ok",
+      "url": "https://www.krslive.no/program"
+    },
+    {
       "antall": 59,
-      "merknad": "Side 1 og 5–9 lest i dag; ny Bibliotekfest 12. november og tre nye 10. desember. Øvrige beholdt fra tidligere.",
+      "merknad": "Side 1–5 lest i dag (til 5. desember); ingen nye. Ingen ungdoms- eller kodeklubbarrangementer funnet. Brettspillkvelder merket som spill.",
       "navn": "Kristiansand folkebibliotek",
       "status": "delvis",
       "url": "https://krsbib.no/arrangementer"
     },
     {
       "antall": 8,
-      "merknad": "Eget program lest. Ny omvisning i juletreutstillingen 10. desember; arrangementer i andre kommuner utelatt.",
+      "merknad": "Arrangementssiden lest; ingen endringer i Kristiansand.",
       "navn": "Vest-Agder-museet",
       "status": "ok",
       "url": "https://www.vestagdermuseet.no/arrangementer/"
     },
     {
-      "antall": 43,
-      "merknad": "Julebyens program lest; to nye arrangementer 10. desember (må sjekkes). Kalendersiden laster ikke uten JavaScript.",
-      "navn": "Kvadraturen",
-      "status": "delvis",
-      "url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/"
+      "antall": 1,
+      "merknad": "Terminlisten lest. Én hjemmekamp i perioden (29. november), nå i kategorien sport.",
+      "navn": "IK Start",
+      "status": "ok",
+      "url": "https://www.ikstart.no/terminliste"
     },
     {
-      "antall": 37,
-      "merknad": "Bare side 1 kan leses; sidetallsparameteren virker ikke herfra. Ingen endringer funnet.",
+      "antall": 2,
+      "merknad": "To Magic-finaler på Gamezone Arena i perioden (1. og 6. desember). topdeck.gg ga ingen kommende turneringer.",
+      "navn": "Unity League (Gamezone)",
+      "status": "ok",
+      "url": "https://unityleague.gg/organizer/566"
+    },
+    {
+      "antall": 2,
+      "merknad": "Familiens Magiske Julevarieté 29. november og 6. desember lagt til.",
+      "navn": "Dyreparken",
+      "status": "ok",
+      "url": "https://www.dyreparken.no/"
+    },
+    {
+      "antall": 41,
+      "merknad": "Julebyens programside lest; ingen nye. Kalendersiden laster ikke innhold herfra. Kunstkalenderen ikke lest.",
+      "navn": "Kvadraturen",
+      "status": "delvis",
+      "url": "https://kvadraturen.no/julebyen-kristiansand/"
+    },
+    {
+      "antall": 31,
+      "merknad": "Bare side 1 (10.–14. november) kan leses. Ingen endringer funnet.",
       "navn": "Kultur i kveld",
       "status": "delvis",
       "url": "https://kulturikveld.no/arrangementer/kristiansand"
+    },
+    {
+      "antall": 3,
+      "merknad": "Samleside lest; ingen nye i perioden. «Dirty Old Town» ignorert; Grimstad utelatt.",
+      "navn": "Songkick",
+      "status": "delvis",
+      "url": "https://songkick.com/metro-areas/31421-norway-kristiansand"
+    },
+    {
+      "antall": 1,
+      "merknad": "Lest i dag; alle arrangementer i perioden allerede med.",
+      "navn": "Consequence (KRS Live)",
+      "status": "ok",
+      "url": "https://concerts.consequence.net/venues/krs-live"
+    },
+    {
+      "antall": 0,
+      "merknad": "Egen programside ikke funnet; lest via Consequence og Songkick. Kalandra står 27. nov. hos Songkick og 28. nov. hos Julebyen, ikke avklart.",
+      "navn": "Kick Scene",
+      "status": "delvis",
+      "url": "https://concerts.consequence.net/venues/kick-scene"
+    },
+    {
+      "antall": 2,
+      "merknad": "Lest i dag; to nye (Communic, Anders Munch) som må sjekkes.",
+      "navn": "Norske kalendere",
+      "status": "delvis",
+      "url": "https://norskekalendere.no/hva-skjer/kristiansand/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Lest; bare Kilden-forestillinger som allerede er med.",
+      "navn": "Barnas Norge",
+      "status": "ok",
+      "url": "https://www.barnasnorge.no/kommuner/kristiansand"
     },
     {
       "antall": 10,
@@ -5764,32 +5981,25 @@
       "url": "https://tikkio.com/"
     },
     {
-      "antall": 3,
-      "merknad": "Samleside lest; ingen nye i perioden. «Dirty Old Town» ignorert; Grimstad og Mandal utelatt.",
-      "navn": "Songkick",
+      "antall": 0,
+      "merknad": "Lest; ingen arrangementer i Kristiansand i perioden (Julegalla 11.12 er i Tønsberg).",
+      "navn": "Eventim",
       "status": "delvis",
-      "url": "https://songkick.com/metro-areas/31421-norway-kristiansand"
+      "url": "https://www.eventim.no/city/kristiansand-og-soerlandet-1911/"
     },
     {
-      "antall": 1,
-      "merknad": "Lest i dag; alle arrangementer i perioden allerede med.",
-      "navn": "Consequence (KRS Live)",
-      "status": "delvis",
-      "url": "https://concerts.consequence.net/venues/krs-live"
-    },
-    {
-      "antall": 1,
-      "merknad": "Siden kunne ikke åpnes i dag (feil hos nettstedet).",
-      "navn": "Fjord Line",
+      "antall": 0,
+      "merknad": "Nettstedet tillater ikke automatisk lesing; søk ga ingen daterte arrangementer.",
+      "navn": "Samsen kulturhus",
       "status": "feilet",
-      "url": "https://fjordline.com/da/norge/inspiration/julekos-i-kristiansand"
+      "url": "https://www.samsen.com/"
     },
     {
-      "antall": 1,
-      "merknad": "Terminlisten lest. Én hjemmekamp i perioden, 29. november.",
-      "navn": "IK Start",
-      "status": "ok",
-      "url": "https://www.ikstart.no/terminliste"
+      "antall": 0,
+      "merknad": "PC/nettleser ikke tilgjengelig",
+      "navn": "Skjer i kirken",
+      "status": "feilet",
+      "url": "https://skjerikirken.no/arrangementer/alle"
     },
     {
       "antall": 0,
@@ -5799,131 +6009,96 @@
       "url": "https://www.kunstsilo.no/en/kunstsilo-live"
     },
     {
+      "antall": 1,
+      "merknad": "Siden kunne ikke åpnes i dag (feil hos nettstedet).",
+      "navn": "Fjord Line",
+      "status": "feilet",
+      "url": "https://fjordline.com/da/norge/inspiration/julekos-i-kristiansand"
+    },
+    {
       "antall": 0,
-      "merknad": "Siden har ingen daterte arrangementer.",
+      "merknad": "Siden viser ingen daterte arrangementer i lesbar form.",
       "navn": "Visit Sørlandet",
       "status": "feilet",
-      "url": "https://en.visitsorlandet.com/destinations/kristiansand/whats-on-in-kristiansand/"
+      "url": "https://www.visitsorlandet.com/hva-skjer/"
     },
     {
       "antall": 0,
-      "merknad": "Søk ga ingen arrangementskalender for perioden.",
-      "navn": "Kristiansand kommune",
-      "status": "feilet",
-      "url": "https://www.kristiansand.kommune.no/"
-    },
-    {
-      "antall": 0,
-      "merknad": "Kunne ikke åpnes herfra.",
-      "navn": "Ticketmaster",
-      "status": "feilet",
-      "url": "https://www.ticketmaster.no/discover/kristiansand"
-    },
-    {
-      "antall": 0,
-      "merknad": "Bare via søk; ingen nye Kristiansand-arrangementer i perioden.",
-      "navn": "Tikkio",
+      "merknad": "Egen konsertside ikke funnet; lest via Songkick. Konserter i kirker har fått kategorien kirke.",
+      "navn": "Kristiansand domkirke",
       "status": "delvis",
-      "url": "https://tikkio.com/"
+      "url": "https://www.songkick.com/venues/1035176-kristiansand-domkirke"
     },
     {
       "antall": 0,
-      "merknad": "Ikke forsøkt på nytt i dag; siden krever JavaScript.",
-      "navn": "Hoopla",
-      "status": "feilet",
-      "url": "https://hoopla.no/"
-    },
-    {
-      "antall": 0,
-      "merknad": "Ikke forsøkt på nytt i dag; forsiden viste tidligere ingen arrangementer i Kristiansand.",
-      "navn": "Billetto",
-      "status": "feilet",
-      "url": "https://billetto.no/"
-    },
-    {
-      "antall": 0,
-      "merknad": "Lest via Consequence; tre konserter i perioden, alle allerede med.",
-      "navn": "Kick Scene",
-      "status": "delvis",
-      "url": "https://concerts.consequence.net/venues/kick-scene"
-    },
-    {
-      "antall": 0,
-      "merknad": "Egen side ikke funnet; Songkick og Julebyen lest. Ingen nye i perioden.",
-      "navn": "Kafé Krank",
-      "status": "delvis",
-      "url": "https://kulturikveld.no/arrangementer/kristiansand"
-    },
-    {
-      "antall": 0,
-      "merknad": "Egen side ikke funnet. Lest via Consequence i dag.",
-      "navn": "KRS Live",
-      "status": "delvis",
-      "url": "https://concerts.consequence.net/venues/krs-live"
-    },
-    {
-      "antall": 0,
-      "merknad": "Ikke forsøkt i dag; teateret.no tillater ikke automatisk lesing. Lest via Kultur i kveld og Julebyen.",
-      "navn": "Caféteatret",
-      "status": "feilet",
-      "url": "https://teateret.no/"
-    },
-    {
-      "antall": 0,
-      "merknad": "Fant ikke arrangørens side. Julemarkedet er lest via Julebyen.",
-      "navn": "Posebyhaven",
-      "status": "feilet",
-      "url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/"
-    },
-    {
-      "antall": 0,
-      "merknad": "Ikke forsøkt i dag. Tidligere søk ga ingen daterte arrangementer.",
-      "navn": "Kristiansand Kunsthall",
-      "status": "feilet",
-      "url": "https://www.visitnorway.no/listings/kristiansand-kunsthall/19883/"
-    },
-    {
-      "antall": 0,
-      "merknad": "Ikke forsøkt i dag. Tidligere søk fant ingen daterte arrangementer.",
-      "navn": "Agder naturmuseum",
-      "status": "feilet",
-      "url": "https://www.visitnorway.no/listings/naturmuseum-og-botanisk-hage-universitetet-i-agder/19945/"
-    },
-    {
-      "antall": 0,
-      "merknad": "Søk i dag ga ingen datoer for julearrangementer.",
-      "navn": "Dyreparken",
-      "status": "feilet",
-      "url": "https://www.visitnorway.com/listings/dyreparken-i-kristiansand/21056/"
-    },
-    {
-      "antall": 0,
-      "merknad": "Ikke forsøkt i dag. DNT-dag og Jul i Skumland er bare nevnt i Julebyen.",
-      "navn": "Aquarama",
-      "status": "feilet",
-      "url": "https://www.visitnorway.no/listings/aquarama/23702/"
-    },
-    {
-      "antall": 0,
-      "merknad": "Ikke forsøkt i dag. Tidligere søk ga ingen daterte arrangementer.",
+      "merknad": "Søk ga ingen daterte arrangementer.",
       "navn": "Vitensenteret Sørlandet",
       "status": "feilet",
       "url": "https://www.uia.no/english/research/vitensenteret/about.html"
     },
     {
       "antall": 0,
-      "merknad": "Ikke forsøkt i dag. Ingen andre hjemmekamper funnet tidligere.",
-      "navn": "Andre idrettslag",
+      "merknad": "Søk ga ingen daterte arrangementer.",
+      "navn": "Kristiansand Kunsthall",
       "status": "feilet",
-      "url": "https://www.fjordnorway.com/no/arrangementer/blno-2627-gimle-basket---tnt-towers-0mg666itd6ecfy8qcdga"
+      "url": "https://www.visitnorway.no/listings/kristiansand-kunsthall/19883/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Søk ga ingen daterte arrangementer.",
+      "navn": "Agder naturmuseum",
+      "status": "feilet",
+      "url": "https://en.wikipedia.org/wiki/Agder_Natural_History_Museum_and_Botanical_Garden"
+    },
+    {
+      "antall": 0,
+      "merknad": "Egen side ikke funnet; DNT-dag er bare nevnt i Julebyen.",
+      "navn": "Aquarama",
+      "status": "feilet",
+      "url": "https://kvadraturen.no/julebyen-kristiansand/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Egen programside ikke funnet i søk.",
+      "navn": "Håndverkeren",
+      "status": "feilet",
+      "url": "https://en.visitsorlandet.com/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Egen side ikke funnet; Songkick lest. Ingen nye i perioden.",
+      "navn": "Kafé Krank",
+      "status": "delvis",
+      "url": "https://www.songkick.com/venues/4644250-kafe-krank-laboratoriet"
+    },
+    {
+      "antall": 0,
+      "merknad": "Søk ga ingen åpne enkeltarrangementer.",
+      "navn": "Friskus Kristiansand",
+      "status": "feilet",
+      "url": "https://www.friskus.com/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Kommunens sider tillater ikke automatisk lesing; ingen daterte spesialarrangementer funnet andre steder.",
+      "navn": "Fritidsklubber (Open Mind, Noden)",
+      "status": "feilet",
+      "url": "https://www.kristiansand.kommune.no/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Ikke lest i dag; data fra tidligere beholdt.",
+      "navn": "Ticketmaster, Hoopla, Billetto, Caféteatret, Posebyhaven, Sandens",
+      "status": "feilet",
+      "url": "https://www.ticketmaster.no/"
     }
   ],
-  "oppdatert": "2026-11-10T06:44:07+01:00",
+  "oppdatert": "2026-11-10T14:41:39+01:00",
   "periode_dager": 30,
   "rapport": {
-    "avlyste": 0,
-    "endrede": 9,
-    "nye": 10,
-    "sammendrag": "10 nye arrangementer, blant annet Secret Garden og Kristiansand Popkor i Kilden 10. desember og Bibliotekfest på Hellemyr 12. november. 9 arrangementer har endret billettstatus eller pris, 1 passert er fjernet, og ingen nye avlysninger ble funnet."
+    "avlyste": 1,
+    "endrede": 22,
+    "nye": 6,
+    "sammendrag": "6 nye arrangementer, blant annet to Magic-finaler på Gamezone Arena og Familiens Magiske Julevarieté i Dyreparken; Singalong brunch på KRS Live 14. november er avlyst. 4 arrangementer ble bekreftet i dag via arrangørens side, og 75 må fortsatt sjekkes."
   }
 }
