@@ -1,4 +1,4 @@
-# Skjer lokalt
+# skjerlokalt.no
 
 Oversikt over arrangementer i norske byer de neste 30 dagene. Første by: Kristiansand.
 Nettside: https://skjerlokalt.no (test, skjult for søkemotorer).

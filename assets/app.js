@@ -1,4 +1,4 @@
-/* Skjer lokalt – programside for én by.
+/* skjerlokalt.no – programside for én by.
    Byen styres av <body data-by="kristiansand">, og dataene hentes fra /data/<by>.json.
    Datafilen skrives hver morgen av den planlagte oppgaven. */
 (function(){
