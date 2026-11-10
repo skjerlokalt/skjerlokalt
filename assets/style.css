@@ -96,6 +96,13 @@ td.n{font-variant-numeric:tabular-nums}
 .st-ok{color:var(--sea);font-weight:600}.st-delvis{color:var(--warn);font-weight:600}.st-feilet{color:var(--sold);font-weight:600}
 footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:14px}
 footer p{margin:0 0 4px;max-width:65ch}
+/* Om-siden */
+.prose{display:grid;gap:28px;max-width:65ch}
+.prose h2{font:700 22px/1.2 var(--display);margin:0 0 8px}
+.prose p{margin:0 0 10px}
+.prose ul{margin:0 0 10px;padding-left:20px;display:grid;gap:8px}
+.topnav{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.topnav a.about{font-size:14px;font-weight:500}
 /* Forside */
 .cities{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
 .city{display:grid;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;text-decoration:none;color:inherit}
