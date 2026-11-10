@@ -103,7 +103,7 @@ footer p{margin:0 0 4px;max-width:65ch}
 .tabs button{border:0;background:none;padding:5px 16px;border-radius:999px;font-weight:600;font-size:14px;color:var(--muted)}
 .tabs button[aria-selected="true"]{background:var(--sea);color:var(--on-sea)}
 #map{height:min(70vh,620px);min-height:360px;border-radius:10px;border:1px solid var(--line);background:var(--panel)}
-@media (prefers-color-scheme:dark){#map .leaflet-tile-pane{filter:invert(.92) hue-rotate(180deg) brightness(.95) contrast(.9)}}
+@media (prefers-color-scheme:dark){#map .leaflet-tile-pane{filter:brightness(.72) contrast(1.05) saturate(.85)}}
 .pin{display:grid;place-items:center}
 .mapbtn{background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:6px 10px;font-weight:600;font-size:13px;box-shadow:0 1px 4px rgba(0,0,0,.2)}
 .pin span{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--sea);color:var(--on-sea);
@@ -111,10 +111,22 @@ footer p{margin:0 0 4px;max-width:65ch}
 .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--panel);color:var(--ink)}
 .leaflet-container{font:inherit}
 .leaflet-container a{color:var(--sea)}
-.pop strong{font:700 15px/1.2 var(--display)}
-.pop ul{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:5px;font-size:13px}
-.pop .pd{display:block;color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
-.pmore{margin:6px 0 0;font-size:12px;color:var(--muted)}
+.pin.cluster span{width:38px;height:38px;font-size:14px;background:var(--ink);color:var(--bg);box-shadow:0 0 0 5px color-mix(in srgb,var(--sea) 35%,transparent),0 1px 4px rgba(0,0,0,.35)}
+.leaflet-popup-content{margin:14px 16px}
+.pop{display:grid;gap:8px}
+.pop .pname{font:700 17px/1.2 var(--display)}
+.pop p{margin:0}
+.pcount{font-size:12px;color:var(--muted)}
+.pnext{background:var(--sea-soft);border-radius:8px;padding:8px 10px;font-size:13.5px;font-weight:600}
+.pnext a{color:var(--ink)}
+.plbl{display:block;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--sea)}
+.pop ul{list-style:none;margin:0;padding:0;display:grid;gap:6px;font-size:13px}
+.pop .pd{display:block;color:var(--muted);font-size:12px;font-weight:500;font-variant-numeric:tabular-nums}
+.pmore{font-size:12px;color:var(--muted)}
+.pbtns{display:flex;gap:8px;flex-wrap:wrap;margin-top:2px}
+.pbtn{font:600 13px/1 var(--body);border-radius:999px;padding:8px 12px;border:1px solid var(--sea);background:var(--sea);color:var(--on-sea)!important;text-decoration:none;cursor:pointer}
+.pbtn.ghost{background:none;color:var(--sea)!important}
+.placechip{background:var(--sea-soft);border-color:var(--sea);color:var(--sea);font-weight:600}
 /* Om-siden */
 .prose{display:grid;gap:28px;max-width:65ch}
 .prose h2{font:700 22px/1.2 var(--display);margin:0 0 8px}

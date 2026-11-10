@@ -45,13 +45,15 @@ function passes(e){
   if(S.free&&!e.gratis)return false;
   if(S.hideSold&&allSold(e))return false;
   if(S.onlyConf&&e.status==='må_sjekkes')return false;
+  if(S.place){const p=placeOf(e);if(!p||p.navn!==S.place)return false}
   if(S.q){const h=[e.tittel,e.beskrivelse,e.sted].join(' ').toLowerCase();if(!h.includes(S.q))return false}
   return true;
 }
 function render(){
   renderPeriods();renderCal();renderList();if(S.view==='kart')renderMap();
-  const dirty=S.period!=='alle'||S.day||S.cats.size||S.q||S.free||S.hideSold||S.onlyConf;
+  const dirty=S.period!=='alle'||S.day||S.cats.size||S.q||S.free||S.hideSold||S.onlyConf||S.place;
   $('reset').hidden=!dirty;
+  $('placechip').hidden=!S.place;if(S.place)$('placechip').innerHTML=`Sted: ${esc(S.place)} <span aria-hidden="true">×</span>`;
 }
 function renderPeriods(){
   const P=[['alle','Alle'],['idag','I dag'],['imorgen','I morgen'],['helg','I helgen'],['uke','Denne uken']];
@@ -122,20 +124,43 @@ function renderMeta(){
 }
 /* ---- Kart ----
    Stedene slås opp i data/steder-<by>.json: {"Kilden":{"lat":..,"lon":..}, ...}.
-   Et sted som «Kilden · Konsertsalen» eller «Blå Kors, Posebyen» faller tilbake på navnet før skilletegnet. */
+   Et sted som «Kilden · Konsertsalen» eller «Blå Kors, Posebyen» faller tilbake på navnet før skilletegnet.
+   Kartgrunnlag: Kartverket (fargekart). Merker som ligger tett, samles (Leaflet.markercluster). */
 let MAP=null,LAYER=null;
 function placeOf(e){
   const P=S.steder||{},s=(e.sted||'').trim();if(!s)return null;
   for(const k of [s,s.split(' · ')[0],s.split(',')[0],s.replace(/\s*\(.*?\)\s*/g,' ').split(',')[0]]){const v=P[k.trim()];if(v&&typeof v.lat==='number')return {navn:k.trim(),...v}}
   return null;
 }
+const firstKl=e=>e.tider?.[0]?.kl||'';
+const sortKey=e=>e.dato+(firstKl(e)||'99');
+function popupHtml(p,ev){
+  const t=todayS();
+  const up=ev.filter(e=>endOf(e)>=t&&e.status!=='avlyst');
+  const next=up[0]||ev[0];
+  const line=e=>{const u=safeUrl(e.kilde_url);const kl=firstKl(e)?` kl. ${esc(firstKl(e))}`:'';
+    const ti=u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(e.tittel)}</a>`:esc(e.tittel);
+    return `<span class="pd">${esc(longDay(e.dato<t?t:e.dato))}${kl}</span>${ti}${e.status==='avlyst'?' <em>(avlyst)</em>':''}`};
+  const rest=ev.filter(e=>e!==next);
+  const rows=rest.slice(0,5).map(e=>`<li>${line(e)}</li>`).join('');
+  const more=rest.length>5?`<p class="pmore">+ ${rest.length-5} til</p>`:'';
+  const dir=`https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lon}`;
+  return `<div class="pop"><strong class="pname">${esc(p.navn)}</strong>
+    <p class="pcount">${ev.length===1?'1 arrangement':ev.length+' arrangementer'} i valgt periode</p>
+    <div class="pnext"><span class="plbl">Neste</span>${line(next)}</div>
+    ${rows?`<ul>${rows}</ul>`:''}${more}
+    <div class="pbtns"><button type="button" class="pbtn" data-place="${esc(p.navn)}">Vis i listen</button>
+    <a class="pbtn ghost" href="${esc(dir)}" target="_blank" rel="noopener">Vis vei ↗</a></div></div>`;
+}
 function renderMap(){
   if(!window.L||!S.data)return;
   if(!MAP){
     MAP=L.map('map',{scrollWheelZoom:false,zoomControl:true}).setView([58.146,7.995],13);
-    L.tileLayer('https://cache.kartverket.no/v1/wmts/1.0.0/topograatone/default/webmercator/{z}/{y}/{x}.png',
+    L.tileLayer('https://cache.kartverket.no/v1/wmts/1.0.0/topo/default/webmercator/{z}/{y}/{x}.png',
       {maxZoom:18,attribution:'&copy; <a href="https://www.kartverket.no/" target="_blank" rel="noopener">Kartverket</a>'}).addTo(MAP);
-    LAYER=L.layerGroup().addTo(MAP);
+    LAYER=(L.markerClusterGroup?L.markerClusterGroup({showCoverageOnHover:false,maxClusterRadius:42,spiderfyOnMaxZoom:true,
+      iconCreateFunction:c=>{const n=c.getAllChildMarkers().reduce((a,m)=>a+(m.options.count||1),0);
+        return L.divIcon({className:'pin cluster',html:`<span>${n}</span>`,iconSize:[38,38],iconAnchor:[19,19]})}}):L.layerGroup()).addTo(MAP);
     MAP.on('dragstart',()=>{S.mapMoved=true});
     const All=L.Control.extend({options:{position:'topright'},onAdd(){const b=L.DomUtil.create('button','mapbtn');b.type='button';b.textContent='Hele kommunen';
       L.DomEvent.on(b,'click',ev=>{L.DomEvent.stop(ev);if(S.mapPts?.length){S.mapMoved=true;MAP.fitBounds(S.mapPts,{padding:[30,30],maxZoom:15})}});return b}});
@@ -146,21 +171,18 @@ function renderMap(){
   for(const e of S.shown||[]){const p=placeOf(e);if(!p){missing++;continue}(byPlace[p.navn]=byPlace[p.navn]||{p,ev:[]}).ev.push(e)}
   const pts=[];
   for(const {p,ev} of Object.values(byPlace)){
-    ev.sort((a,b)=>(a.dato+(a.tider?.[0]?.kl||'99')).localeCompare(b.dato+(b.tider?.[0]?.kl||'99')));
-    const rows=ev.slice(0,8).map(e=>{const u=safeUrl(e.kilde_url);const t=e.tider?.[0]?.kl?` kl. ${esc(e.tider[0].kl)}`:'';
-      const ti=u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(e.tittel)}</a>`:esc(e.tittel);
-      return `<li><span class="pd">${esc(shortDay(e.dato))}${t}</span>${ti}${e.status==='avlyst'?' <em>(avlyst)</em>':''}</li>`}).join('');
-    const more=ev.length>8?`<p class="pmore">+ ${ev.length-8} til. Se listen.</p>`:'';
+    ev.sort((a,b)=>sortKey(a).localeCompare(sortKey(b)));
     const icon=L.divIcon({className:'pin',html:`<span>${ev.length}</span>`,iconSize:[28,28],iconAnchor:[14,14],popupAnchor:[0,-14]});
-    L.marker([p.lat,p.lon],{icon,title:`${p.navn}: ${ev.length} arrangementer`,keyboard:true})
-      .bindPopup(`<div class="pop"><strong>${esc(p.navn)}</strong><ul>${rows}</ul>${more}</div>`,{maxWidth:280}).addTo(LAYER);
+    L.marker([p.lat,p.lon],{icon,count:ev.length,title:`${p.navn}: ${ev.length} arrangementer`,keyboard:true})
+      .bindPopup(popupHtml(p,ev),{maxWidth:300,minWidth:240}).addTo(LAYER);
     pts.push([p.lat,p.lon]);
   }
   $('mapnote').textContent=missing?`${missing} ${missing===1?'arrangement':'arrangementer'} mangler kartposisjon og vises bare i listen.`:'';
   S.mapPts=pts;
   /* Først vises sentrum, der det meste skjer. «Hele kommunen» zoomer ut til alle stedene. */
   if(!S.mapMoved){const near=pts.filter(([a,b])=>Math.abs(a-58.146)<.012&&Math.abs(b-7.996)<.02);
-    if(near.length)MAP.fitBounds(near,{padding:[40,40],maxZoom:16});else if(pts.length)MAP.fitBounds(pts,{padding:[30,30],maxZoom:15})}
+    if(S.place&&pts.length)MAP.setView(pts[0],16);
+    else if(near.length)MAP.fitBounds(near,{padding:[40,40],maxZoom:16});else if(pts.length)MAP.fitBounds(pts,{padding:[30,30],maxZoom:15})}
   setTimeout(()=>MAP.invalidateSize(),0);
 }
 function setView(v){
@@ -181,9 +203,12 @@ $('f-free').addEventListener('change',e=>{S.free=e.target.checked;render()});
 $('f-sold').addEventListener('change',e=>{S.hideSold=e.target.checked;render()});
 $('f-conf').addEventListener('change',e=>{S.onlyConf=e.target.checked;render()});
 $('more').addEventListener('click',e=>{const o=$('extra').classList.toggle('open');e.currentTarget.setAttribute('aria-expanded',o)});
-$('reset').addEventListener('click',()=>{Object.assign(S,{period:'alle',day:null,q:'',free:false,hideSold:false,onlyConf:false});S.cats.clear();
+$('reset').addEventListener('click',()=>{Object.assign(S,{period:'alle',day:null,q:'',free:false,hideSold:false,onlyConf:false,place:null,mapMoved:false});S.cats.clear();
   $('q').value='';['f-free','f-sold','f-conf'].forEach(i=>$(i).checked=false);document.querySelectorAll('[data-c]').forEach(b=>b.setAttribute('aria-pressed','false'));render()});
 $('v-list').addEventListener('click',()=>setView('liste'));
+/* «Vis i listen» i et kartmerke filtrerer listen på det stedet. */
+document.addEventListener('click',e=>{const b=e.target.closest('[data-place]');if(!b)return;S.place=b.dataset.place;MAP&&MAP.closePopup();setView('liste');render();scrollTo({top:$('list').getBoundingClientRect().top+scrollY-80,behavior:'smooth'})});
+$('placechip').addEventListener('click',()=>{S.place=null;S.mapMoved=false;render()});
 $('v-map').addEventListener('click',()=>setView('kart'));
 addEventListener('hashchange',()=>setView(location.hash==='#kart'?'kart':'liste'));
 render();
