@@ -1,0 +1,5929 @@
+{
+  "arrangementer": [
+    {
+      "aldersgruppe": "senior",
+      "beskrivelse": "Seniorkilden",
+      "dato": "2026-11-10",
+      "gratis": false,
+      "id": "kilden-46649-2026-11-10",
+      "kategorier": [
+        "scene"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/46649-gunnar-pa-mo/",
+      "pris": "100 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "få",
+          "kl": "12:00"
+        },
+        {
+          "billett": "ledig",
+          "kl": "14:00"
+        }
+      ],
+      "tittel": "Gunnar på Mo"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Av Susie Wang",
+      "dato": "2026-11-10",
+      "gratis": false,
+      "id": "kilden-42808-2026-11-10",
+      "kategorier": [
+        "scene"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42808-heavy-breathers/",
+      "pris": "150–300 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Intimsalen",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Heavy Breathers"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-11",
+      "gratis": true,
+      "id": "krsbib-dataveiledning-pa-demo-rona-20-2026-11-11",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/kurs-og-veiledning/dataveiledning-pa-demo-rona-20",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Demo Rona",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "10:00"
+        }
+      ],
+      "tittel": "Dataveiledning"
+    },
+    {
+      "aldersgruppe": "baby",
+      "beskrivelse": "For de aller minste",
+      "dato": "2026-11-11",
+      "gratis": true,
+      "id": "kilden-36579-2026-11-11",
+      "kategorier": [
+        "familie"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/36579-babysang-i-kilden/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Musikksalongen",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "11:30"
+        },
+        {
+          "billett": "gratis",
+          "kl": "12:15"
+        }
+      ],
+      "tittel": "Babysang i Kilden"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-11",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-pa-nodeland-bibliotek-47-2026-11-11",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-pa-nodeland-bibliotek-47",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Nodeland bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-11",
+      "gratis": false,
+      "id": "ki-6zcc0g-2026-11-11",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/speed-date-50/6ZCc0g",
+      "pris": "330 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Speed date 50+"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Av Susie Wang",
+      "dato": "2026-11-11",
+      "gratis": false,
+      "id": "kilden-42808-2026-11-11",
+      "kategorier": [
+        "scene"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42808-heavy-breathers/",
+      "pris": "150–300 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Intimsalen",
+      "tider": [
+        {
+          "billett": "få",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Heavy Breathers"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Med Maria Haukaas Mittet",
+      "dato": "2026-11-11",
+      "gratis": false,
+      "id": "kilden-47620-2026-11-11",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/47620-lydhor-norbakken-eriksen/",
+      "pris": "275 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Lydhør – norbakken/eriksen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-12",
+      "gratis": true,
+      "id": "krsbib-dataveiledning-pa-nodeland-5-2026-11-12",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/kurs-og-veiledning/dataveiledning-pa-nodeland-5",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Nodeland bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Dataveiledning"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-12",
+      "gratis": true,
+      "id": "krsbib-strikk-og-lytt-2026-11-12",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/hoytlesing/strikk-og-lytt",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Strikk og lytt"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Utstillingen åpner, og verkstedet er åpent til klokken 19.",
+      "dato": "2026-11-12",
+      "gratis": true,
+      "id": "jb-pepperkake-sandens-2026-11-12",
+      "kategorier": [
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Sandens",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "16:00"
+        }
+      ],
+      "tittel": "Pepperkakeutstilling og pepperkakeverksted"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-12",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-pa-demo-rona-38-2026-11-12",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-pa-demo-rona-38",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Demo Rona",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "16:00"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Familiefest sammen med Hellemyr Vel: dukketeater, juleverksted, pølser og pizza, og visning av dokumentaren «The Librarians».",
+      "dato": "2026-11-12",
+      "gratis": true,
+      "id": "krsbib-bibliotekfest-2026-11-12",
+      "kategorier": [
+        "familie",
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sosial-moteplass/bibliotekfest",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hellemyr bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "16:30"
+        }
+      ],
+      "tittel": "Bibliotekfest på Hellemyr"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-12",
+      "gratis": true,
+      "id": "krsbib-practica-tu-espanol-pa-hellemyr-116-2026-11-12",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/practica-tu-espanol-pa-hellemyr-116",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hellemyr bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Practica tu Español"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Julegrana tennes, og julenissen kommer på besøk.",
+      "dato": "2026-11-12",
+      "gratis": null,
+      "id": "jb-julegran-sandens-2026-11-12",
+      "kategorier": [
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Sandens",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Tenning av julegrana"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-12",
+      "gratis": true,
+      "id": "krsbib-brettspillkveld-2-2026-11-12",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/lek-og-moro/brettspillkveld-2",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Tangvall bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Brettspillkveld"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Om hvordan kysten ble forsvart i vikingtid og middelalder.",
+      "dato": "2026-11-12",
+      "gratis": true,
+      "id": "ki-osm3tj-2026-11-12",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/arkeologikafe-fienden-kommer-hvordan-forsvarte-folk-norskekysten-i-vikingtid-og-middelalderen/OSm3TJ",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Arkeologikafé: Fienden kommer!"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Avlyst på grunn av filmvisning.",
+      "dato": "2026-11-12",
+      "gratis": true,
+      "id": "krsbib-bibliotekets-leseklubb-hellemyr-1-2026-11-12",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sosial-moteplass/bibliotekets-leseklubb-hellemyr-1",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "avlyst",
+      "sted": "Hellemyr bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Bibliotekets leseklubb"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Julekula på Torvet tennes klokken 18, med scene, julenisse og aktiviteter på Sandens og Lillemarkens.",
+      "dato": "2026-11-12",
+      "gratis": null,
+      "id": "kv-forjulskveld-2026-11-12",
+      "kategorier": [
+        "jul",
+        "familie"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/foerjulskveld-i-byen-12-november/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Torvet",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Førjulskveld i byen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "En statusrapport fra Norges rikeste land",
+      "dato": "2026-11-12",
+      "gratis": false,
+      "id": "kilden-39092-2026-11-12",
+      "kategorier": [
+        "humor",
+        "scene"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/39092-hoyt-og-lavt-en-statusrapport-fra-norges-rikeste-land/",
+      "pris": "495 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "få",
+          "kl": "18:00"
+        },
+        {
+          "billett": "ledig",
+          "kl": "20:30"
+        }
+      ],
+      "tittel": "Høyt og lavt"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Humorpodkasten fremført direkte for publikum.",
+      "dato": "2026-11-12",
+      "gratis": false,
+      "id": "ki-pcpxvn-2026-11-12",
+      "kategorier": [
+        "humor"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/liveshow-med-spaartsklubben/PcPXvN",
+      "pris": "580–680 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "KRS Live",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "18:00"
+        },
+        {
+          "billett": null,
+          "kl": "21:00"
+        }
+      ],
+      "tittel": "Liveshow med Spårtsklubben"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Med Kristiansand Symfoniorkester",
+      "dato": "2026-11-12",
+      "gratis": true,
+      "id": "kilden-50945-2026-11-12",
+      "kategorier": [
+        "klassisk"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/50945-sparebanken-norge-konserten-2026/",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "18:30"
+        }
+      ],
+      "tittel": "Sparebanken Norge-konserten 2026"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Julekonsert.",
+      "dato": "2026-11-12",
+      "gratis": null,
+      "id": "jb-blaa-torsdag-2026-11-12",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Blå Kors, Posebyen",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Blå Torsdag med Trine Rein"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Av Susie Wang",
+      "dato": "2026-11-12",
+      "gratis": false,
+      "id": "kilden-42808-2026-11-12",
+      "kategorier": [
+        "scene"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42808-heavy-breathers/",
+      "pris": "150–300 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Intimsalen",
+      "tider": [
+        {
+          "billett": "få",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Heavy Breathers"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-13",
+      "gratis": true,
+      "id": "krsbib-fredagslunsj-vetle-lid-larssen-2026-11-13",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/fredagslunsj/fredagslunsj-vetle-lid-larssen",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hovedbiblioteket",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "11:30"
+        }
+      ],
+      "tittel": "Fredagslunsj: Vetle Lid Larssen"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Barn og unge, avslappet forestilling",
+      "dato": "2026-11-13",
+      "gratis": false,
+      "id": "kilden-47418-2026-11-13",
+      "kategorier": [
+        "scene",
+        "familie"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/47418-riksteatret-ubesvart-anrop/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "få",
+          "kl": "13:30"
+        }
+      ],
+      "tittel": "Riksteatret: Ubesvart anrop"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-13",
+      "gratis": true,
+      "id": "jb-thom-hell-k14-2026-11-13",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "K14, Skippergata",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "15:30"
+        }
+      ],
+      "tittel": "Thom Hell – gratiskonsert"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-13",
+      "gratis": null,
+      "id": "jb-art-night-2026-11-13",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Kunstsilo",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Art Night"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Av Susie Wang",
+      "dato": "2026-11-13",
+      "gratis": false,
+      "id": "kilden-42808-2026-11-13",
+      "kategorier": [
+        "scene"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42808-heavy-breathers/",
+      "pris": "150–300 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Intimsalen",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Heavy Breathers"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Med Kevin Vågenes, Cess og Rasmus Wold",
+      "dato": "2026-11-13",
+      "gratis": false,
+      "id": "kilden-47615-2026-11-13",
+      "kategorier": [
+        "humor"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/47615-treretters-hostens-store-humorfest/",
+      "pris": "535–630 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "19:00"
+        },
+        {
+          "billett": "ledig",
+          "kl": "21:00"
+        }
+      ],
+      "tittel": "Treretters – høstens store humorfest"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Belgisk post-metal fra Brussel. Dørene åpner 19, musikken starter 21. 18 år.",
+      "dato": "2026-11-13",
+      "gratis": null,
+      "id": "sk-43452350-2026-11-13",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Vaktbua (Tikkio)",
+      "kilde_url": "https://tikkio.com/events/66931-vividpresents-aufhebung-be",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vaktbua",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "VIVID: Aufhebung"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-13",
+      "gratis": null,
+      "id": "sk-43384438-2026-11-13",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Domkirken",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "20:00"
+        }
+      ],
+      "tittel": "ULD"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-13",
+      "gratis": null,
+      "id": "jb-allsang-2026-11-13",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Clarion Hotel Ernst",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "21:00"
+        }
+      ],
+      "tittel": "På grensen til allsang"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-13",
+      "gratis": null,
+      "id": "sk-43446372-2026-11-13",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Songkick",
+      "kilde_url": "https://songkick.com/concerts/43446372-thom-hell-at-foajeen",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Foajeen",
+      "tider": [],
+      "tittel": "Thom Hell"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "D.O.T og Heimevernet. Oppført som fullt.",
+      "dato": "2026-11-14",
+      "gratis": null,
+      "id": "consequence-grunnleggende-overlevelse-2026-11-14",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Consequence (KRS Live)",
+      "kilde_url": "https://concerts.consequence.net/events/dot-heimevernet-pres-grunnleggende-praktisk-overlevelse-fullt-at-kafe-krank-laboratoriet-on-2026-11-14-12-00",
+      "pris": null,
+      "sist_sjekket": "2026-11-09",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Kafé Krank",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Grunnleggende praktisk overlevelse"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": null,
+      "dato": "2026-11-14",
+      "gratis": true,
+      "id": "krsbib-lordagsverksted-7-2026-11-14",
+      "kategorier": [
+        "familie"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/lek-og-moro/lordagsverksted-7",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Lørdagsverksted"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-14",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-pa-vagsbygd-bibliotek-54-2026-11-14",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-pa-vagsbygd-bibliotek-54",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Bymisjonens julemarked, barneverksted og pinnebrød. Julenissen tenner bryggelysene klokken 17.",
+      "dato": "2026-11-14",
+      "gratis": null,
+      "id": "kv-fiskebrygga-2026-11-14",
+      "kategorier": [
+        "jul",
+        "marked",
+        "familie"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/jul-paa-fiskebrygga-14-november/",
+      "pris": "Mest gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Fiskebrygga",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "13:00"
+        }
+      ],
+      "tittel": "Jul på Fiskebrygga"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-14",
+      "gratis": null,
+      "id": "jb-sing-it-brunch-2026-11-14",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "KRS Live",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "13:00"
+        }
+      ],
+      "tittel": "Sing it Brunch"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Barneteater.",
+      "dato": "2026-11-14",
+      "gratis": null,
+      "id": "jb-baldrian-musa-2026-11-14",
+      "kategorier": [
+        "scene",
+        "familie"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "13:30"
+        }
+      ],
+      "tittel": "Baldrian og Musa"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Barn og unge, avslappet forestilling",
+      "dato": "2026-11-14",
+      "gratis": false,
+      "id": "kilden-47418-2026-11-14",
+      "kategorier": [
+        "scene",
+        "familie"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/47418-riksteatret-ubesvart-anrop/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "15:00"
+        }
+      ],
+      "tittel": "Riksteatret: Ubesvart anrop"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-14",
+      "gratis": null,
+      "id": "jb-south-city-stompers-2026-11-14",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Hos Naboen",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "16:00"
+        }
+      ],
+      "tittel": "Lørdagsjazz med South City Stompers"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Av Susie Wang",
+      "dato": "2026-11-14",
+      "gratis": false,
+      "id": "kilden-42808-2026-11-14",
+      "kategorier": [
+        "scene"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42808-heavy-breathers/",
+      "pris": "150–300 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Intimsalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Heavy Breathers"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Norskspråklige viser og rock med fortellinger. Dørene åpner 19, musikken starter 20.30.",
+      "dato": "2026-11-14",
+      "gratis": null,
+      "id": "ki-ahhros-2026-11-14",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Vaktbua (Tikkio)",
+      "kilde_url": "https://tikkio.com/events/65947-anton-rudd-vaktbua",
+      "pris": null,
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vaktbua",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Anton Ruud + Fridthjof Berntsen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-14",
+      "gratis": false,
+      "id": "kilden-46770-2026-11-14",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/46770-janove-med-strykekvartett/",
+      "pris": "630 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Janove – med strykekvartett"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-14",
+      "gratis": null,
+      "id": "jb-paal-flaata-2026-11-14",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Domkirken",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Paal Flaata – Elvis gospel"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-14",
+      "gratis": false,
+      "id": "krslive-vamp-2026-11-14",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/vamp/YjmFET",
+      "pris": "650 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "KRS Live",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Vamp"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Hyllestkonsert til Kim Larsen.",
+      "dato": "2026-11-14",
+      "gratis": false,
+      "id": "ki-qezma4-2026-11-14",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/kaere-larsen-en-hyllestkonsert-til-kim-larsen/QezMA4",
+      "pris": "288–1 020 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:30"
+        }
+      ],
+      "tittel": "Kære Larsen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-14",
+      "gratis": false,
+      "id": "sk-43147721-2026-11-14",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/dirty-old-town-pres-toefl/yIMXJr",
+      "pris": "320–400 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Kafé Krank",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "21:00"
+        }
+      ],
+      "tittel": "TØFL"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-15",
+      "gratis": null,
+      "id": "jb-dnt-dag-2026-11-15",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Aquarama",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "11:00"
+        }
+      ],
+      "tittel": "DNT-dag på Aquarama"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-15",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-68-2026-11-15",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-68",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hovedbiblioteket",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:30"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-16",
+      "gratis": true,
+      "id": "krsbib-strikkekafe-pa-vagsbygd-bibliotek-86-2026-11-16",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sosial-moteplass/strikkekafe-pa-vagsbygd-bibliotek-86",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Strikkekafé"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-17",
+      "gratis": false,
+      "id": "ki-qvsha4-2026-11-17",
+      "kategorier": [
+        "scene"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/peer-gynt-med-kaare-conradi/QvsHA4",
+      "pris": "225 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Kilden",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "12:00"
+        },
+        {
+          "billett": "utsolgt",
+          "kl": "14:00"
+        }
+      ],
+      "tittel": "Peer Gynt med Kåre Conradi"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "«Musikk i truede taktarter» med Eva Mari Andreasen",
+      "dato": "2026-11-17",
+      "gratis": false,
+      "id": "kilden-47404-2026-11-17",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/47404-musikksalongen-20/",
+      "pris": "150–350 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Restaurant Frihavn",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Musikksalongen #20"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Hyllestkonsert til Kim Larsen.",
+      "dato": "2026-11-17",
+      "gratis": false,
+      "id": "ki-krk6q5-2026-11-17",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/kaere-larsen-en-hyllestkonsert-til-kim-larsen-ekstra-konsert/KRK6Q5",
+      "pris": "288–545 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:30"
+        }
+      ],
+      "tittel": "Kære Larsen – ekstrakonsert"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-18",
+      "gratis": true,
+      "id": "krsbib-dataveiledning-i-vagsbygd-0-2026-11-18",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/kurs-og-veiledning/dataveiledning-i-vagsbygd-0",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "10:00"
+        }
+      ],
+      "tittel": "Dataveiledning"
+    },
+    {
+      "aldersgruppe": "baby",
+      "beskrivelse": "For de aller minste",
+      "dato": "2026-11-18",
+      "gratis": true,
+      "id": "kilden-36579-2026-11-18",
+      "kategorier": [
+        "familie"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/36579-babysang-i-kilden/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Musikksalongen",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "11:30"
+        },
+        {
+          "billett": "gratis",
+          "kl": "12:15"
+        }
+      ],
+      "tittel": "Babysang i Kilden"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-18",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-pa-nodeland-bibliotek-48-2026-11-18",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-pa-nodeland-bibliotek-48",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Nodeland bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-18",
+      "gratis": null,
+      "id": "jb-vin-til-jul-2026-11-18",
+      "kategorier": [
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Bakgården",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Vin til jul med Christer Berents"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-18",
+      "gratis": false,
+      "id": "kilden-46008-2026-11-18",
+      "kategorier": [
+        "scene"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/46008-kukene-kukane-lest-av-erlend-loe/",
+      "pris": "425 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "«Kukene/Kukane» lest av Erlend Loe"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-19",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-pa-demo-rona-39-2026-11-19",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-pa-demo-rona-39",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Demo Rona",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "16:00"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-19",
+      "gratis": true,
+      "id": "krsbib-practica-tu-espanol-pa-hellemyr-117-2026-11-19",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/practica-tu-espanol-pa-hellemyr-117",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hellemyr bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Practica tu Español"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Boken er av Max Porter.",
+      "dato": "2026-11-19",
+      "gratis": true,
+      "id": "krsbib-bibliotekets-leseklubb-vagsbygd-0-2026-11-19",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sosial-moteplass/bibliotekets-leseklubb-vagsbygd-0",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Bibliotekets leseklubb: Sorg er den greia med fjær"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-19",
+      "gratis": true,
+      "id": "krsbib-quiz-pa-tangvall-bibliotek-4-2026-11-19",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sosial-moteplass/quiz-pa-tangvall-bibliotek-4",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Tangvall bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Quiz"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Med Kristiansand Symfoniorkester",
+      "dato": "2026-11-19",
+      "gratis": false,
+      "id": "kilden-45958-2026-11-19",
+      "kategorier": [
+        "klassisk"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/45958-rachlin-spiller-alban-berg/",
+      "pris": "160–465 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "18:30"
+        }
+      ],
+      "tittel": "Rachlin spiller Alban Berg"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-19",
+      "gratis": false,
+      "id": "ki-b3ecfz-2026-11-19",
+      "kategorier": [
+        "scene"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/idiotiens-historie/b3ecFZ",
+      "pris": "430 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Idiotiens historie"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-19",
+      "gratis": false,
+      "id": "ki-gkxonu-2026-11-19",
+      "kategorier": [
+        "humor"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/improtorsdag-paa-teateret/GKXoNU",
+      "pris": "100 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "20:00"
+        }
+      ],
+      "tittel": "ImproTorsdag"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Humorshow med Kjell Are Janz.",
+      "dato": "2026-11-19",
+      "gratis": false,
+      "id": "ki-xpfixo-2026-11-19",
+      "kategorier": [
+        "humor"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/naa-er-det-min-tur-humorshow-med-kjell-are-janz/xPFixo",
+      "pris": "155–280 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "20:00"
+        }
+      ],
+      "tittel": "Nå er det min tur"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Standup med Galvan Mehidi.",
+      "dato": "2026-11-19",
+      "gratis": false,
+      "id": "krslive-hvisgudvil-2026-11-19",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/hvis-gud-vil/s6Mwn8",
+      "pris": "620 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "KRS Live",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "21:00"
+        }
+      ],
+      "tittel": "Hvis Gud vil"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-20",
+      "gratis": true,
+      "id": "krsbib-alf-van-der-hagen-om-tor-ulven-morket-i-enden-av-tunnelen-2026-11-20",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/fredagslunsj/alf-van-der-hagen-om-tor-ulven-morket-i-enden-av-tunnelen",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hovedbiblioteket",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "11:30"
+        }
+      ],
+      "tittel": "Fredagslunsj: Alf van der Hagen om Tor Ulven"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Av Sverre Brandt, musikk av Johan Halvorsen",
+      "dato": "2026-11-20",
+      "gratis": false,
+      "id": "kilden-42814-2026-11-20",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42814-reisen-til-julestjernen/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Teater- og operasalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Reisen til Julestjernen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-20",
+      "gratis": false,
+      "id": "kilden-43761-2026-11-20",
+      "kategorier": [
+        "humor"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/43761-terje-sporsem-og-john-brungot-hoy-og-mork/",
+      "pris": "630 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "få",
+          "kl": "18:30"
+        }
+      ],
+      "tittel": "Terje Sporsem og John Brungot – Høy og Mørk"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-20",
+      "gratis": false,
+      "id": "ki-mdlpjx-2026-11-20",
+      "kategorier": [
+        "humor",
+        "jul"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/juleshow-med-svein-bjarne-fordi-vi-er-gift/mDLPjx",
+      "pris": "263–1 070 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Juleshow med Svein & Bjarne"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-20",
+      "gratis": false,
+      "id": "ki-4abvao-2026-11-20",
+      "kategorier": [
+        "humor"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/karsten-blomvik-lykkelig-deprimert/4aBVaO",
+      "pris": "280–350 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Karsten Blomvik – Lykkelig deprimert"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-20",
+      "gratis": null,
+      "id": "jb-hjernegym-2026-11-20",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Telfords",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "20:00"
+        }
+      ],
+      "tittel": "Hjernegym – sesongfinale"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-20",
+      "gratis": false,
+      "id": "sk-43382800-2026-11-20",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/dirty-old-town-pres-kristi-brud/chql6u",
+      "pris": "360 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Kafé Krank",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "21:00"
+        }
+      ],
+      "tittel": "Kristi Brud"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Klubbkveld med house og techno fram til klokken to.",
+      "dato": "2026-11-20",
+      "gratis": null,
+      "id": "ki-p88oik-2026-11-20",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Vaktbua (Tikkio)",
+      "kilde_url": "https://tikkio.com/events/66472-dj-friendly-vaktbua-klubb",
+      "pris": null,
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vaktbua",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "22:00"
+        }
+      ],
+      "tittel": "DJ Friendly"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": null,
+      "dato": "2026-11-21",
+      "gratis": null,
+      "id": "jb-barnas-dag-2026-11-21",
+      "kategorier": [
+        "familie"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Kunstsilo",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "11:00"
+        }
+      ],
+      "tittel": "Barnas Dag"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Mat, håndverk og design. Kilden sier siste helg i november, uten eksakte datoer.",
+      "dato": "2026-11-21",
+      "gratis": null,
+      "id": "jul-posebyhaven-2026",
+      "kategorier": [
+        "marked",
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": "2026-11-22",
+      "status": "må_sjekkes",
+      "sted": "Posebyhaven",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "11:00"
+        }
+      ],
+      "tittel": "Julemarked i Posebyhaven"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": null,
+      "dato": "2026-11-21",
+      "gratis": true,
+      "id": "krsbib-lagelordag-mal-ditt-eget-kunstverk-2026-11-21",
+      "kategorier": [
+        "familie"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/verkstedet/lagelordag-mal-ditt-eget-kunstverk",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Tangvall bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "11:00"
+        }
+      ],
+      "tittel": "Lagelørdag: Mal ditt eget kunstverk"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": null,
+      "dato": "2026-11-21",
+      "gratis": true,
+      "id": "krsbib-lordagsverksted-8-2026-11-21",
+      "kategorier": [
+        "familie"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/lek-og-moro/lordagsverksted-8",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Lørdagsverksted"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Lørdagskilden",
+      "dato": "2026-11-21",
+      "gratis": false,
+      "id": "kilden-47131-2026-11-21",
+      "kategorier": [
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/47131-snekker-andersen-og-julenissen/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "få",
+          "kl": "12:00"
+        },
+        {
+          "billett": "få",
+          "kl": "13:00"
+        },
+        {
+          "billett": "få",
+          "kl": "14:00"
+        }
+      ],
+      "tittel": "Snekker Andersen og Julenissen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-21",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-pa-vagsbygd-bibliotek-55-2026-11-21",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-pa-vagsbygd-bibliotek-55",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Foredrag om kunstig intelligens og kreativitet.",
+      "dato": "2026-11-21",
+      "gratis": true,
+      "id": "ki-lqffbp-2026-11-21",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/ki-det-kreativt-skapende-og-problemer-med-det-tellende-loerdagsuniversitetet-i-kristiansand/LQffBp",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "13:00"
+        }
+      ],
+      "tittel": "Lørdagsuniversitetet: KI og det kreativt skapende"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Av Sverre Brandt, musikk av Johan Halvorsen",
+      "dato": "2026-11-21",
+      "gratis": false,
+      "id": "kilden-42814-2026-11-21",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42814-reisen-til-julestjernen/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Teater- og operasalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Reisen til Julestjernen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Julekonsert med Sound of Happiness.",
+      "dato": "2026-11-21",
+      "gratis": null,
+      "id": "jb-lys-i-morket-2026-11-21",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Domkirken",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Lys i mørket"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-21",
+      "gratis": false,
+      "id": "kilden-37504-2026-11-21",
+      "kategorier": [
+        "humor"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/37504-bjorn-bjarte-den-toffe-den-sarte/",
+      "pris": "630 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "få",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Bjørn & Bjarte, den tøffe & den sarte"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Progmetal med folkemusikkinnslag og sørstatspreget death/grind på samme kveld.",
+      "dato": "2026-11-21",
+      "gratis": null,
+      "id": "ki-n77zwq-2026-11-21",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Vaktbua (Tikkio)",
+      "kilde_url": "https://tikkio.com/events/66490-wrath-son-of-a-shotgun",
+      "pris": null,
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vaktbua",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Wrath + Son of a Shotgun"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Humorshow med Kjetil Stray Homme og Fredrik Landmark.",
+      "dato": "2026-11-21",
+      "gratis": false,
+      "id": "ki-hmljlv-2026-11-21",
+      "kategorier": [
+        "humor"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/klaskefar-og-dundrimus-et-soloshow-med-to-personer/HMLJLV",
+      "pris": "229–429 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "20:00"
+        }
+      ],
+      "tittel": "Klaskefar og Dundrimus"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-21",
+      "gratis": false,
+      "id": "sk-43236123-2026-11-21",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/dirty-old-town-pres-the-impossible-green-support-velcro-dog/zYtOPc",
+      "pris": "240–330 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Kafé Krank",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "21:00"
+        }
+      ],
+      "tittel": "The Impossible Green og Velcro Dog"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Juledag i herregården med pyntet tre, pianomusikk, aktiviteter ute, varm pølse og bisp.",
+      "dato": "2026-11-22",
+      "gratis": false,
+      "id": "vam-gimle-2026-11-22",
+      "kategorier": [
+        "jul",
+        "familie"
+      ],
+      "kilde_navn": "Vest-Agder-museet",
+      "kilde_url": "https://www.vestagdermuseet.no/jul-pa-gimle-gard/?t=1795345200",
+      "pris": "100–125 kr, barn 40–50 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Gimle Gård",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "11:00"
+        }
+      ],
+      "tittel": "Jul på Gimle Gård"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-22",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-69-2026-11-22",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-69",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hovedbiblioteket",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:30"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Med Tønes og Ingvar Hovland",
+      "dato": "2026-11-22",
+      "gratis": false,
+      "id": "kilden-48141-2026-11-22",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/48141-ein-slags-julekonsert-med-tones-og-ingvar-hovland/",
+      "pris": "585 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Ein slags julekonsert"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Kammerkonserter i Agder med KSO",
+      "dato": "2026-11-22",
+      "gratis": false,
+      "id": "kilden-48092-2026-11-22",
+      "kategorier": [
+        "klassisk"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/48092-kammerkonserter-i-agder-vagsbygd-kirke/",
+      "pris": "225 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd kirke",
+      "tider": [
+        {
+          "billett": "ved_døra",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Kammerkonsert i Vågsbygd kirke"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-23",
+      "gratis": true,
+      "id": "krsbib-gjenbruksfestival-2026-11-23",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sosial-moteplass/gjenbruksfestival",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-06",
+      "slutt_dato": "2026-12-05",
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "10:00"
+        }
+      ],
+      "tittel": "Gjenbruksfestival"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-23",
+      "gratis": true,
+      "id": "krsbib-strikkekafe-pa-vagsbygd-bibliotek-87-2026-11-23",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sosial-moteplass/strikkekafe-pa-vagsbygd-bibliotek-87",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-06",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Strikkekafé"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Foredrag med Åsne Seierstad.",
+      "dato": "2026-11-23",
+      "gratis": null,
+      "id": "jb-asne-seierstad-2026-11-23",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "KRS Live",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "I krig og ufred"
+    },
+    {
+      "aldersgruppe": "senior",
+      "beskrivelse": "Seniorkilden",
+      "dato": "2026-11-24",
+      "gratis": false,
+      "id": "kilden-42754-2026-11-24",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42754-songbok-vol-3-askil-holm-25-arsjubileumskonsert/",
+      "pris": "100 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "SONGBOK vol. 3 – Askil Holm 25 år"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-24",
+      "gratis": true,
+      "id": "krsbib-litteraert-pusterom-lesestund-voksne-18-2026-11-24",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/samtale/litteraert-pusterom-lesestund-voksne-18",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Demo Rona",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:30"
+        }
+      ],
+      "tittel": "Litterært pusterom: lesestund for voksne"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Av Sverre Brandt, musikk av Johan Halvorsen",
+      "dato": "2026-11-24",
+      "gratis": false,
+      "id": "kilden-42814-2026-11-24",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42814-reisen-til-julestjernen/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Teater- og operasalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Reisen til Julestjernen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Boken er av Samantha Harvey.",
+      "dato": "2026-11-24",
+      "gratis": true,
+      "id": "krsbib-bibliotekets-leseklubb-hovedbiblioteket-2-2026-11-24",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sosial-moteplass/bibliotekets-leseklubb-hovedbiblioteket-2",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hovedbiblioteket",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Bibliotekets leseklubb: Jordbane"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Jubileumskonsert",
+      "dato": "2026-11-24",
+      "gratis": false,
+      "id": "kilden-42755-2026-11-24",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42755-songbok-vol-3-askil-holm-25-arsjubileumskonsert/",
+      "pris": "375 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "SONGBOK vol. 3 – Askil Holm 25 år"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-25",
+      "gratis": true,
+      "id": "krsbib-dataveiledning-pa-demo-rona-21-2026-11-25",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/kurs-og-veiledning/dataveiledning-pa-demo-rona-21",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Demo Rona",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "10:00"
+        }
+      ],
+      "tittel": "Dataveiledning"
+    },
+    {
+      "aldersgruppe": "baby",
+      "beskrivelse": "For de aller minste",
+      "dato": "2026-11-25",
+      "gratis": true,
+      "id": "kilden-36579-2026-11-25",
+      "kategorier": [
+        "familie"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/36579-babysang-i-kilden/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Musikksalongen",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "11:30"
+        },
+        {
+          "billett": "gratis",
+          "kl": "12:15"
+        }
+      ],
+      "tittel": "Babysang i Kilden"
+    },
+    {
+      "aldersgruppe": "senior",
+      "beskrivelse": null,
+      "dato": "2026-11-25",
+      "gratis": null,
+      "id": "jb-kunstsilo-senior-2026-11-25",
+      "kategorier": [
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Kunstsilo",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "15:00"
+        }
+      ],
+      "tittel": "Kunstsilo Senior: juleverksted"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-25",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-pa-nodeland-bibliotek-49-2026-11-25",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-pa-nodeland-bibliotek-49",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Nodeland bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Av Sverre Brandt, musikk av Johan Halvorsen",
+      "dato": "2026-11-25",
+      "gratis": false,
+      "id": "kilden-42814-2026-11-25",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42814-reisen-til-julestjernen/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Teater- og operasalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Reisen til Julestjernen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-25",
+      "gratis": false,
+      "id": "ki-hgzbcb-2026-11-25",
+      "kategorier": [
+        "jul",
+        "annet"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/abito-foerjulskveld/hGZbcB",
+      "pris": "420–525 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "18:30"
+        }
+      ],
+      "tittel": "Abito førjulskveld"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Foredrag med Thor Gotaas.",
+      "dato": "2026-11-25",
+      "gratis": false,
+      "id": "ki-6zhkgx-2026-11-25",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/et-muntert-blikk-paa-norsk-skihistorie-foredrag-med-thor-gotaas/6ZHkgx",
+      "pris": "225–876 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Et muntert blikk på norsk skihistorie"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-26",
+      "gratis": true,
+      "id": "krsbib-dataveiledning-pa-tangvall-6-2026-11-26",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/kurs-og-veiledning/dataveiledning-pa-tangvall-6",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Tangvall bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Dataveiledning"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Om frontallappen og kunstig intelligens.",
+      "dato": "2026-11-26",
+      "gratis": true,
+      "id": "krsbib-torsdagskringla-sylfest-lomheim-om-frontallappen-og-kunstig-2026-11-26",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/torsdagskringla/torsdagskringla-sylfest-lomheim-om-frontallappen-og-kunstig",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Torsdagskringla: Sylfest Lomheim"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-26",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-pa-demo-rona-40-2026-11-26",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-pa-demo-rona-40",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Demo Rona",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "16:00"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Sharrons Dansestudio",
+      "dato": "2026-11-26",
+      "gratis": false,
+      "id": "kilden-49784-2026-11-26",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/49784-a-christmas-carol/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "17:00"
+        },
+        {
+          "billett": "utsolgt",
+          "kl": "19:15"
+        }
+      ],
+      "tittel": "A Christmas Carol"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-26",
+      "gratis": true,
+      "id": "krsbib-practica-tu-espanol-pa-hellemyr-118-2026-11-26",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/practica-tu-espanol-pa-hellemyr-118",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hellemyr bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Practica tu Español"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Avslappet forestilling",
+      "dato": "2026-11-26",
+      "gratis": false,
+      "id": "kilden-48356-2026-11-26",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/48356-reisen-til-julestjernen-relaext/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Teater- og operasalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Reisen til Julestjernen – Relæxt"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-26",
+      "gratis": true,
+      "id": "krsbib-bibliotekets-leseklubb-tre-lys-2026-11-26",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/samtale/bibliotekets-leseklubb-tre-lys",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Tangvall bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Bibliotekets leseklubb: Tre lys"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Med Kristiansand Symfoniorkester",
+      "dato": "2026-11-26",
+      "gratis": false,
+      "id": "kilden-45959-2026-11-26",
+      "kategorier": [
+        "klassisk"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/45959-i-takknemlighet-over-terje-boye-hansen/",
+      "pris": "160–465 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "18:30"
+        }
+      ],
+      "tittel": "I takknemlighet over Terje Boye Hansen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Slippkonsert i tech death.",
+      "dato": "2026-11-26",
+      "gratis": null,
+      "id": "ki-9kktrf-2026-11-26",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Vaktbua (Tikkio)",
+      "kilde_url": "https://tikkio.com/events/66845-grusom-gig-celestial-scourge-release-gig-supp-kjottkroken-tech-death",
+      "pris": null,
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vaktbua",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Celestial Scourge + Kjøttkroken"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Foredrag med Kari Brunvatne Kleivset om mattradisjoner, med demonstrasjon av eggost.",
+      "dato": "2026-11-26",
+      "gratis": false,
+      "id": "vam-lokalmat-2026-11-26",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Vest-Agder-museet",
+      "kilde_url": "https://www.vestagdermuseet.no/lokalmat-med-tradisjoner-fra-agder-foredrag-nodeviga/?t=1795719600",
+      "pris": "100 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Nodeviga, Odderøya",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Lokalmat med tradisjoner fra Agder"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Standup. Julebyens kalender oppgir 23. november, så datoen bør sjekkes.",
+      "dato": "2026-11-26",
+      "gratis": false,
+      "id": "ki-efn0ih-2026-11-26",
+      "kategorier": [
+        "humor"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/men-har-du-proevd-yoga-et-standupshow-om-aa-skli-paa-isen/EfN0Ih",
+      "pris": "190–350 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "«Men har du prøvd yoga?»"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Lunsjforedrag med forfatteren Ingar Sletten Kolloen om hvordan makt og folkelig oppslutning ble vunnet.",
+      "dato": "2026-11-27",
+      "gratis": null,
+      "id": "krsbib-ingar-sletten-kolloen-hvordan-vant-de-makta-og-folket-2026-11-27",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/fredagslunsj/ingar-sletten-kolloen-hvordan-vant-de-makta-og-folket",
+      "pris": null,
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hovedbiblioteket",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "11:30"
+        }
+      ],
+      "tittel": "Fredagslunsj: Ingar Sletten Kolloen"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Av Sverre Brandt, musikk av Johan Halvorsen",
+      "dato": "2026-11-27",
+      "gratis": false,
+      "id": "kilden-42814-2026-11-27",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42814-reisen-til-julestjernen/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Teater- og operasalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Reisen til Julestjernen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Dora Thorhallsdottir",
+      "dato": "2026-11-27",
+      "gratis": false,
+      "id": "kilden-46636-2026-11-27",
+      "kategorier": [
+        "humor"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/46636-fokk-et-vekkelsesmote/",
+      "pris": "485 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "18:00"
+        },
+        {
+          "billett": "utsolgt",
+          "kl": "20:30"
+        }
+      ],
+      "tittel": "FØKK «Et vekkelsesmøte»"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Julekonsert",
+      "dato": "2026-11-27",
+      "gratis": false,
+      "id": "kilden-44495-2026-11-27",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/44495-christel-alsos/",
+      "pris": "540–630 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Christel Alsos – I den kalde vinter"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-27",
+      "gratis": false,
+      "id": "ki-qedxa4-2026-11-27",
+      "kategorier": [
+        "humor"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/espen-abrahamsen-avantgarde/QeDXA4",
+      "pris": "190–350 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        },
+        {
+          "billett": null,
+          "kl": "21:30"
+        }
+      ],
+      "tittel": "Espen Abrahamsen – Avantgarde"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Stoner og heavy.",
+      "dato": "2026-11-27",
+      "gratis": null,
+      "id": "ki-xzzazo-2026-11-27",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Vaktbua (Tikkio)",
+      "kilde_url": "https://tikkio.com/events/66671-forgotten-king-morkekraft-stonerheavy-vaktbua",
+      "pris": null,
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vaktbua",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Forgotten King + Mörkekraft"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-27",
+      "gratis": null,
+      "id": "sk-43257262-2026-11-27",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Kick Scene",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Kalandra"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-27",
+      "gratis": false,
+      "id": "krslive-wallmans-2026-11-27",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/wallmans-on-tour/zfPrcw",
+      "pris": "1 810 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "KRS Live",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:30"
+        }
+      ],
+      "tittel": "Wallmans On Tour"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Humorshow med Kjetil Stray Homme og Fredrik Landmark.",
+      "dato": "2026-11-27",
+      "gratis": false,
+      "id": "ki-exfdg6-2026-11-27",
+      "kategorier": [
+        "humor"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/klaskefar-og-dundrimus-et-soloshow-med-to-personer/eXFdG6",
+      "pris": "228–429 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "20:00"
+        }
+      ],
+      "tittel": "Klaskefar og Dundrimus"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-27",
+      "gratis": false,
+      "id": "sk-43257875-2026-11-27",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/dirty-old-town-pres-randi-oline/cEyJzu",
+      "pris": "280–380 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Kafé Krank",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "21:00"
+        }
+      ],
+      "tittel": "Randi Oline"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Boder med gaver og lokal mat, lekeplass og curlingbane.",
+      "dato": "2026-11-28",
+      "gratis": null,
+      "id": "jul-torvet-2026",
+      "kategorier": [
+        "marked",
+        "jul",
+        "familie"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/kristiansand-julemarked/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": "2026-12-22",
+      "status": "bekreftet",
+      "sted": "Torvet",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Julemarked på Torvet"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Gratis isbane midt i byen. Åpner 28. november, siden daglig 09–22. Skøyter kan leies hos BUA.",
+      "dato": "2026-11-28",
+      "gratis": true,
+      "id": "jul-kompis-2026",
+      "kategorier": [
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/isbanen-kompis-paa-torvet/",
+      "pris": null,
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Torvet",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Kompis skøytebane åpner"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": null,
+      "dato": "2026-11-28",
+      "gratis": true,
+      "id": "krsbib-lordagsverksted-9-2026-11-28",
+      "kategorier": [
+        "familie"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/lek-og-moro/lordagsverksted-9",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Lørdagsverksted"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-28",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-pa-vagsbygd-bibliotek-56-2026-11-28",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-pa-vagsbygd-bibliotek-56",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Lørdagskilden",
+      "dato": "2026-11-28",
+      "gratis": false,
+      "id": "kilden-42760-2026-11-28",
+      "kategorier": [
+        "konsert",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42760-superbandets-jul-julesangskatten-vol-7/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "12:00"
+        },
+        {
+          "billett": "utsolgt",
+          "kl": "13:00"
+        },
+        {
+          "billett": "utsolgt",
+          "kl": "14:30"
+        },
+        {
+          "billett": "utsolgt",
+          "kl": "15:30"
+        }
+      ],
+      "tittel": "Superbandets Jul – Julesangskatten vol. 7"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Pyntede trær fra ulike tider, med gratis omvisninger 28.–29. november og torsdager i desember.",
+      "dato": "2026-11-28",
+      "gratis": true,
+      "id": "vam-juletre-2026",
+      "kategorier": [
+        "jul",
+        "familie"
+      ],
+      "kilde_navn": "Vest-Agder-museet",
+      "kilde_url": "https://www.vestagdermuseet.no/historisk-juletreutstilling-kristiansand-2026/?t=1795870800",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": "2026-12-20",
+      "status": "bekreftet",
+      "sted": "Rådhuskvartalet, Torvet",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "13:00"
+        }
+      ],
+      "tittel": "Historisk juletreutstilling"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Foredrag om boligkjøp i Kristiansand.",
+      "dato": "2026-11-28",
+      "gratis": true,
+      "id": "ki-k8gg95-2026-11-28",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/ung-eller-gammel-har-du-raad-til-boligdroemmen-i-kristiansand-loerdagsuniversitetet-i-kristiansand/K8GG95",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "13:00"
+        }
+      ],
+      "tittel": "Lørdagsuniversitetet: Har du råd til boligdrømmen?"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Konservatoren viser rundt i den historiske juletreutstillingen. Omvisninger hver halvtime.",
+      "dato": "2026-11-28",
+      "gratis": true,
+      "id": "vam-omvisning-juletre-2026-11-28",
+      "kategorier": [
+        "jul",
+        "annet"
+      ],
+      "kilde_navn": "Vest-Agder-museet",
+      "kilde_url": "https://www.vestagdermuseet.no/omvisning-i-historisk-juletreutstilling-i-radhuskvartalet-kristiansand/",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Rådhuskvartalet, Torvet",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "13:00"
+        }
+      ],
+      "tittel": "Omvisning i historisk juletreutstilling"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Barneteater.",
+      "dato": "2026-11-28",
+      "gratis": null,
+      "id": "jb-baldrian-musa-2026-11-28",
+      "kategorier": [
+        "scene",
+        "familie"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "13:30"
+        }
+      ],
+      "tittel": "Baldrian og Musa"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Av Sverre Brandt, musikk av Johan Halvorsen",
+      "dato": "2026-11-28",
+      "gratis": false,
+      "id": "kilden-42814-2026-11-28",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42814-reisen-til-julestjernen/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Teater- og operasalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "14:00"
+        },
+        {
+          "billett": "ledig",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Reisen til Julestjernen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-28",
+      "gratis": null,
+      "id": "jb-fellesjulebord-2026-11-28",
+      "kategorier": [
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Hartmanns",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Fellesjulebord med Superstars"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-28",
+      "gratis": null,
+      "id": "jb-kalandra-2026-11-28",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Kick Scene",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Kalandra"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-28",
+      "gratis": false,
+      "id": "kilden-43829-2026-11-28",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/43829-maria-mena/",
+      "pris": "685 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Maria Mena"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Ekstrakonsert.",
+      "dato": "2026-11-28",
+      "gratis": null,
+      "id": "jb-sordal-faber-2026-11-28",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Posebyhaven",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "20:00"
+        }
+      ],
+      "tittel": "Julekonsert med Stein Roger Sordal og Erik Faber"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Bluesklubbkveld.",
+      "dato": "2026-11-28",
+      "gratis": false,
+      "id": "ki-hbr9zv-2026-11-28",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/lady-t-band/HbR9ZV",
+      "pris": "325–380 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "20:00"
+        }
+      ],
+      "tittel": "Lady T Band"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Klubbkollektiv med melodisk house og techno. 20 år.",
+      "dato": "2026-11-28",
+      "gratis": false,
+      "id": "ki-vpp5bm-2026-11-28",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Vaktbua (Tikkio)",
+      "kilde_url": "https://tikkio.com/events/66998-zvett-klubbkollektiv-vaktbua-klubb",
+      "pris": "80–120 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vaktbua",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "21:00"
+        }
+      ],
+      "tittel": "zvett klubbkollektiv"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Omtrent 45 utstillere. Kilden sier siste helg i november, uten eksakte datoer.",
+      "dato": "2026-11-28",
+      "gratis": null,
+      "id": "jul-kunstsilo-2026",
+      "kategorier": [
+        "marked",
+        "jul"
+      ],
+      "kilde_navn": "Fjord Line",
+      "kilde_url": "https://fjordline.com/da/norge/inspiration/julekos-i-kristiansand",
+      "pris": null,
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": "2026-11-29",
+      "status": "må_sjekkes",
+      "sted": "Kunstsilo",
+      "tider": [],
+      "tittel": "Designernes julemarked"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Nær 40 selgere i friluftsmuseet, med ponniridning, fortelling og aktiviteter for barn.",
+      "dato": "2026-11-29",
+      "gratis": false,
+      "id": "jul-museum-2026",
+      "kategorier": [
+        "marked",
+        "jul",
+        "familie"
+      ],
+      "kilde_navn": "Vest-Agder-museet",
+      "kilde_url": "https://www.vestagdermuseet.no/julemarked-pa-kristiansand-museum/?t=1795950000",
+      "pris": "120 kr, barn 50 kr, familie 290 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kristiansand Museum",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "11:00"
+        }
+      ],
+      "tittel": "Julemarked på Kristiansand Museum"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-29",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-71-2026-11-29",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-71",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hovedbiblioteket",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:30"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": null,
+      "dato": "2026-11-29",
+      "gratis": true,
+      "id": "krsbib-fabula-flerspraklig-fortellerstund-9-2026-11-29",
+      "kategorier": [
+        "familie"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/hoytlesing/fabula-flerspraklig-fortellerstund-9",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hovedbiblioteket",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "13:00"
+        }
+      ],
+      "tittel": "Fabula: flerspråklig fortellerstund"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Konservatoren viser rundt i den historiske juletreutstillingen. Omvisninger hver halvtime.",
+      "dato": "2026-11-29",
+      "gratis": true,
+      "id": "vam-omvisning-juletre-2026-11-29",
+      "kategorier": [
+        "jul",
+        "annet"
+      ],
+      "kilde_navn": "Vest-Agder-museet",
+      "kilde_url": "https://www.vestagdermuseet.no/omvisning-i-historisk-juletreutstilling-i-radhuskvartalet-kristiansand/",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Rådhuskvartalet, Torvet",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "14:00"
+        }
+      ],
+      "tittel": "Omvisning i historisk juletreutstilling"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Eliteserien, hjemmekamp.",
+      "dato": "2026-11-29",
+      "gratis": false,
+      "id": "ikstart-sarpsborg08-2026-11-29",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "IK Start",
+      "kilde_url": "https://www.ikstart.no/terminliste",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Sparebanken Norge Arena",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "IK Start – Sarpsborg 08"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Julekonsert med Alexandra Rotan, Tom Hugo og venner.",
+      "dato": "2026-11-29",
+      "gratis": false,
+      "id": "ki-xnx9bb-2026-11-29",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/jula-er-her-alexandra-rotan-tom-hugo-venner/XnX9bb",
+      "pris": "340–650 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Jula er her"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-11-30",
+      "gratis": true,
+      "id": "krsbib-strikkekafe-pa-vagsbygd-bibliotek-88-2026-11-30",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sosial-moteplass/strikkekafe-pa-vagsbygd-bibliotek-88",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Strikkekafé"
+    },
+    {
+      "aldersgruppe": "senior",
+      "beskrivelse": "Seniorkilden",
+      "dato": "2026-12-01",
+      "gratis": false,
+      "id": "kilden-27677-2026-12-01",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/27677-bjoro-og-miriam-adventskonsert/",
+      "pris": "100 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "12:00"
+        },
+        {
+          "billett": "utsolgt",
+          "kl": "14:00"
+        }
+      ],
+      "tittel": "Bjøro og Miriam adventskonsert"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Av Sverre Brandt, musikk av Johan Halvorsen",
+      "dato": "2026-12-01",
+      "gratis": false,
+      "id": "kilden-42814-2026-12-01",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42814-reisen-til-julestjernen/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Teater- og operasalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Reisen til Julestjernen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Julekonsert",
+      "dato": "2026-12-01",
+      "gratis": false,
+      "id": "kilden-43693-2026-12-01",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/43693-nordic-tenors/",
+      "pris": "690 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Nordic Tenors"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-02",
+      "gratis": true,
+      "id": "krsbib-dataveiledning-i-vagsbygd-1-2026-12-02",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/kurs-og-veiledning/dataveiledning-i-vagsbygd-1",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "10:00"
+        }
+      ],
+      "tittel": "Dataveiledning"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Kort dukketeater for barn fra tre år, omtrent en halvtime.",
+      "dato": "2026-12-02",
+      "gratis": false,
+      "id": "kilden-15905-2026-12-02",
+      "kategorier": [
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/15905-kakemann-dukkemann/",
+      "pris": "50 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "få",
+          "kl": "10:00"
+        }
+      ],
+      "tittel": "Kakemann – Dukkemann"
+    },
+    {
+      "aldersgruppe": "baby",
+      "beskrivelse": "For de aller minste",
+      "dato": "2026-12-02",
+      "gratis": true,
+      "id": "kilden-36579-2026-12-02",
+      "kategorier": [
+        "familie"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/36579-babysang-i-kilden/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Musikksalongen",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "11:30"
+        },
+        {
+          "billett": "gratis",
+          "kl": "12:15"
+        }
+      ],
+      "tittel": "Babysang i Kilden"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-02",
+      "gratis": null,
+      "id": "jb-robstad-ringoen-2026-12-02",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Kunstsilo",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Julekonsert med Gunhild Robstad og Gunnar Sjur Ringøen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-02",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-pa-nodeland-bibliotek-50-2026-12-02",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-pa-nodeland-bibliotek-50",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Nodeland bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Av Sverre Brandt, musikk av Johan Halvorsen",
+      "dato": "2026-12-02",
+      "gratis": false,
+      "id": "kilden-42814-2026-12-02",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42814-reisen-til-julestjernen/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Teater- og operasalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Reisen til Julestjernen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Julekonsert",
+      "dato": "2026-12-02",
+      "gratis": false,
+      "id": "kilden-44000-2026-12-02",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/44000-adam-douglas/",
+      "pris": "540–630 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Adam Douglas – An American Holiday"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Kort dukketeater for barn fra tre år, omtrent en halvtime.",
+      "dato": "2026-12-03",
+      "gratis": false,
+      "id": "kilden-15905-2026-12-03",
+      "kategorier": [
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/15905-kakemann-dukkemann/",
+      "pris": "50 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "10:00"
+        }
+      ],
+      "tittel": "Kakemann – Dukkemann"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Om vevtradisjoner i Agder.",
+      "dato": "2026-12-03",
+      "gratis": true,
+      "id": "krsbib-torsdagskringla-lisa-blom-om-vevtradisjoner-i-agder-2026-12-03",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/torsdagskringla/torsdagskringla-lisa-blom-om-vevtradisjoner-i-agder",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Torsdagskringla: Lisa Blom"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Konservatoren viser rundt i den historiske juletreutstillingen. Omvisninger hver halvtime.",
+      "dato": "2026-12-03",
+      "gratis": true,
+      "id": "vam-omvisning-juletre-2026-12-03",
+      "kategorier": [
+        "jul",
+        "annet"
+      ],
+      "kilde_navn": "Vest-Agder-museet",
+      "kilde_url": "https://www.vestagdermuseet.no/omvisning-i-historisk-juletreutstilling-i-radhuskvartalet-kristiansand/",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Rådhuskvartalet, Torvet",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "13:00"
+        }
+      ],
+      "tittel": "Omvisning i historisk juletreutstilling"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-03",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-pa-demo-rona-41-2026-12-03",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-pa-demo-rona-41",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Demo Rona",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "16:00"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-03",
+      "gratis": true,
+      "id": "krsbib-practica-tu-espanol-pa-hellemyr-119-2026-12-03",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/practica-tu-espanol-pa-hellemyr-119",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hellemyr bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Practica tu Español"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-03",
+      "gratis": true,
+      "id": "krsbib-brettspillkveld-3-2026-12-03",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/lek-og-moro/brettspillkveld-3",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Tangvall bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Brettspillkveld"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Av Sverre Brandt, musikk av Johan Halvorsen",
+      "dato": "2026-12-03",
+      "gratis": false,
+      "id": "kilden-42814-2026-12-03",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42814-reisen-til-julestjernen/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Teater- og operasalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Reisen til Julestjernen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-03",
+      "gratis": null,
+      "id": "jb-julesamling-spiren-2026-12-03",
+      "kategorier": [
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Spiren",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Julesamling"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Julekonsert",
+      "dato": "2026-12-03",
+      "gratis": false,
+      "id": "kilden-44324-2026-12-03",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/44324-oslo-gospel-choir/",
+      "pris": "620 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Oslo Gospel Choir"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Med Kristiansand Symfoniorkester",
+      "dato": "2026-12-03",
+      "gratis": false,
+      "id": "kilden-45960-2026-12-03",
+      "kategorier": [
+        "klassisk",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/45960-bachs-juleoratorium/",
+      "pris": "200–465 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Domkirken",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "18:30"
+        }
+      ],
+      "tittel": "Bachs juleoratorium"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Norsk trio med psykedelisk stoner og fusion feirer ti år og tiende album.",
+      "dato": "2026-12-03",
+      "gratis": null,
+      "id": "ki-2ffboy-2026-12-03",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Vaktbua (Tikkio)",
+      "kilde_url": "https://tikkio.com/events/65606-kanaan-psychedelicfusionstoner",
+      "pris": null,
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vaktbua",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Kanaan"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-03",
+      "gratis": false,
+      "id": "krslive-christmasorch-2026-12-03",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/the-christmas-orchestra/D5gnPs",
+      "pris": "705–780 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "KRS Live",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "The Christmas Orchestra"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-03",
+      "gratis": false,
+      "id": "ki-rv7e9e-2026-12-03",
+      "kategorier": [
+        "humor"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/improtorsdag-paa-teateret/RV7E9e",
+      "pris": "100 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "20:00"
+        }
+      ],
+      "tittel": "ImproTorsdag"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-03",
+      "gratis": null,
+      "id": "jb-hanna-furberg-2026-12-03",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Boxen, Bare Studenthus",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "20:40"
+        }
+      ],
+      "tittel": "Hanna Furberg"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Av Sverre Brandt, musikk av Johan Halvorsen",
+      "dato": "2026-12-04",
+      "gratis": false,
+      "id": "kilden-42814-2026-12-04",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42814-reisen-til-julestjernen/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Teater- og operasalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Reisen til Julestjernen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Med Magnus Devold, Kjetil Moen og Ahmed Mamow.",
+      "dato": "2026-12-04",
+      "gratis": false,
+      "id": "ki-8vmb2r-2026-12-04",
+      "kategorier": [
+        "humor",
+        "jul"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/julestandup/8VMb2R",
+      "pris": "1 025 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Julestandup"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Julekonsert",
+      "dato": "2026-12-04",
+      "gratis": false,
+      "id": "kilden-44511-2026-12-04",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/44511-sissels-jul/",
+      "pris": "650–815 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "få",
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Sissels jul"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Med Erlend Gunstveit",
+      "dato": "2026-12-04",
+      "gratis": false,
+      "id": "kilden-47507-2026-12-04",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/47507-a-very-nashville-christmas/",
+      "pris": "550 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "få",
+          "kl": "18:30"
+        },
+        {
+          "billett": "ledig",
+          "kl": "20:30"
+        }
+      ],
+      "tittel": "A very Nashville christmas"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-04",
+      "gratis": false,
+      "id": "sk-43403865-2026-12-04",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/dot-pres-zimmermann-julekonsert-utsolgt/chlriu",
+      "pris": "485 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Kick Scene",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "18:30"
+        },
+        {
+          "billett": "utsolgt",
+          "kl": "21:00"
+        }
+      ],
+      "tittel": "Zimmermann – julekonsert"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Pønk.",
+      "dato": "2026-12-04",
+      "gratis": null,
+      "id": "ki-8xqssr-2026-12-04",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Vaktbua (Tikkio)",
+      "kilde_url": "https://tikkio.com/events/67223-oppkast-utakt-ponk-vaktbua",
+      "pris": null,
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vaktbua",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Oppkast + Ütakt"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-04",
+      "gratis": null,
+      "id": "sk-43455740-2026-12-04",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Domkirken",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "20:00"
+        }
+      ],
+      "tittel": "Erik Faber og Marte Wulff"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-04",
+      "gratis": null,
+      "id": "sk-43231367-2026-12-04",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Songkick",
+      "kilde_url": "https://songkick.com/concerts/43231367-garness-at-vagsbygd-kirke-vagsbygd",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Vågsbygd kirke",
+      "tider": [],
+      "tittel": "Garness og Lewi Bergrud"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": null,
+      "dato": "2026-12-05",
+      "gratis": null,
+      "id": "jb-familiejulemarked-2026-12-05",
+      "kategorier": [
+        "jul",
+        "marked",
+        "familie"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Blå Kors, Posebyen",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "11:00"
+        }
+      ],
+      "tittel": "Familiejulemarked"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Kort dukketeater for barn fra tre år, omtrent en halvtime.",
+      "dato": "2026-12-05",
+      "gratis": false,
+      "id": "kilden-15905-2026-12-05",
+      "kategorier": [
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/15905-kakemann-dukkemann/",
+      "pris": "50 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "11:00"
+        },
+        {
+          "billett": "få",
+          "kl": "13:00"
+        }
+      ],
+      "tittel": "Kakemann – Dukkemann"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-05",
+      "gratis": null,
+      "id": "jb-forfatternes-julemarked-2026-12-05",
+      "kategorier": [
+        "jul",
+        "marked"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": "2026-12-06",
+      "status": "må_sjekkes",
+      "sted": "Kafé Krank",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Forfatternes julemarked"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Avslappet forestilling",
+      "dato": "2026-12-05",
+      "gratis": false,
+      "id": "kilden-48914-2026-12-05",
+      "kategorier": [
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/48914-kakemann-dukkemann-relaext/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Kakemann – Dukkemann – Relæxt!"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Gratis inngang.",
+      "dato": "2026-12-05",
+      "gratis": true,
+      "id": "jb-kunstnermarked-2026-12-05",
+      "kategorier": [
+        "jul",
+        "marked"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": "2026-12-06",
+      "status": "må_sjekkes",
+      "sted": "Rådhuskvartalet",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Kunstnermarked"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": null,
+      "dato": "2026-12-05",
+      "gratis": true,
+      "id": "krsbib-lordagsverksted-10-2026-12-05",
+      "kategorier": [
+        "familie"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/lek-og-moro/lordagsverksted-10",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-09",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Lørdagsverksted"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-05",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-pa-vagsbygd-bibliotek-48-2026-12-05",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-pa-vagsbygd-bibliotek-48",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-09",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Av Sverre Brandt, musikk av Johan Halvorsen",
+      "dato": "2026-12-05",
+      "gratis": false,
+      "id": "kilden-42814-2026-12-05",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42814-reisen-til-julestjernen/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Teater- og operasalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "14:00"
+        },
+        {
+          "billett": "ledig",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Reisen til Julestjernen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-05",
+      "gratis": null,
+      "id": "jb-janitsjar-2026-12-05",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Domkirken",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Julekonsert med Kristiansand Janitsjar"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Julekonsert",
+      "dato": "2026-12-05",
+      "gratis": false,
+      "id": "kilden-44498-2026-12-05",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/44498-symfonica/",
+      "pris": "655–755 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "18:00"
+        },
+        {
+          "billett": "få",
+          "kl": "20:30"
+        }
+      ],
+      "tittel": "Symfonica"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Viser.",
+      "dato": "2026-12-05",
+      "gratis": false,
+      "id": "ki-hqqojv-2026-12-05",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Vaktbua (Tikkio)",
+      "kilde_url": "https://tikkio.com/events/64546-bror-vise-vaktbua",
+      "pris": "150–200 kr",
+      "sist_sjekket": "2026-11-07",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vaktbua",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Bror"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-05",
+      "gratis": false,
+      "id": "krslive-julegalla-2026-12-05",
+      "kategorier": [
+        "humor",
+        "jul"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/julegalla/kQkrLK",
+      "pris": "595 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "KRS Live",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Julegalla"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-05",
+      "gratis": false,
+      "id": "sk-43265362-2026-12-05",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/dirty-old-town-pres-bigbang/YBirQE",
+      "pris": "380–485 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Kick Scene",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "21:00"
+        }
+      ],
+      "tittel": "Bigbang"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-06",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-88-2026-12-06",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-88",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hovedbiblioteket",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:30"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Danseforestilling fra Movement Danseskole.",
+      "dato": "2026-12-06",
+      "gratis": false,
+      "id": "ki-lad3up-2026-12-06",
+      "kategorier": [
+        "scene",
+        "jul"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/noetteknekkeren-vinterens-vakreste-eventyr-av-movement-danseskole/LAd3up",
+      "pris": "167–305 kr",
+      "sist_sjekket": "2026-11-08",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "13:00"
+        },
+        {
+          "billett": null,
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Nøtteknekkeren"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": null,
+      "dato": "2026-12-06",
+      "gratis": null,
+      "id": "jb-bjornis-sandens-2026-12-06",
+      "kategorier": [
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Sandens",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "15:00"
+        }
+      ],
+      "tittel": "Bjørnis kommer"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": null,
+      "dato": "2026-12-06",
+      "gratis": true,
+      "id": "jb-julefilm-2026-12-06",
+      "kategorier": [
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Latinerhaven, Skippergata 24",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "16:00"
+        }
+      ],
+      "tittel": "Gratis julefilm for barna"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": null,
+      "dato": "2026-12-06",
+      "gratis": null,
+      "id": "jb-nissen-sandens-2026-12-06",
+      "kategorier": [
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Sandens",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Nissen kommer"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-06",
+      "gratis": false,
+      "id": "ki-zwdnrm-2026-12-06",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/fransk-aften-med-duoretro/ZWDNRM",
+      "pris": "180–330 kr",
+      "sist_sjekket": "2026-11-08",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Fransk aften med duoRETRO"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-06",
+      "gratis": null,
+      "id": "jb-alle-byens-kor-2026-12-06",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Domkirken",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Julekonsert med alle byens kor"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Vokalensemblet og pianist Runar Nørsett synger kjente julesanger. Endelig program er ikke klart.",
+      "dato": "2026-12-06",
+      "gratis": false,
+      "id": "kilden-50932-2026-12-06",
+      "kategorier": [
+        "konsert",
+        "klassisk",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/50932-jul-med-kilden-vokalensemble/",
+      "pris": "200–350 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd kirke",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Jul med Kilden Vokalensemble"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-07",
+      "gratis": true,
+      "id": "krsbib-strikkekafe-pa-vagsbygd-bibliotek-89-2026-12-07",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sosial-moteplass/strikkekafe-pa-vagsbygd-bibliotek-89",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Strikkekafé"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-07",
+      "gratis": true,
+      "id": "krsbib-litteraert-pusterom-8-2026-12-07",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sosial-moteplass/litteraert-pusterom-8",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Nodeland bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Litterært pusterom"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-07",
+      "gratis": true,
+      "id": "krsbib-litteraert-pusterom-lesestund-voksne-14-2026-12-07",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/samtale/litteraert-pusterom-lesestund-voksne-14",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hovedbiblioteket",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Litterært pusterom: lesestund for voksne"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Kveld med dans og levende musikk.",
+      "dato": "2026-12-07",
+      "gratis": null,
+      "id": "jb-hygge-pa-brygga-2026-12-07",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Hartmanns",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "18:00"
+        }
+      ],
+      "tittel": "Hygge på Brygga"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Julekonsert midt på dagen i Kilden.",
+      "dato": "2026-12-08",
+      "gratis": false,
+      "id": "kilden-27681-2026-12-08",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/27681-mellom-julebakst-og-englesang/",
+      "pris": "100 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Mellom julebakst og englesang"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Av Sverre Brandt, musikk av Johan Halvorsen",
+      "dato": "2026-12-08",
+      "gratis": false,
+      "id": "kilden-42814-2026-12-08",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42814-reisen-til-julestjernen/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Teater- og operasalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Reisen til Julestjernen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Foredrag med John Hammersmark på Teateret.",
+      "dato": "2026-12-08",
+      "gratis": false,
+      "id": "ki-92gtfq-2026-12-08",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kultur i kveld",
+      "kilde_url": "https://kulturikveld.no/arrangementer/kristiansand/det-kan-alltid-bli-verre-foredrag-med-john-hammersmark/92gtFq",
+      "pris": "435–1 005 kr",
+      "sist_sjekket": "2026-11-09",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Teateret",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Det kan alltid bli verre – foredrag med John Hammersmark"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Gospeljulekonsert med The Harlem Spirit of Gospel, Anthony Morgan og Restart Mass Choir.",
+      "dato": "2026-12-08",
+      "gratis": false,
+      "id": "kilden-48447-2026-12-08",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/48447-the-great-gospel-christmas-celebration/",
+      "pris": "575 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "utsolgt",
+          "kl": "20:00"
+        }
+      ],
+      "tittel": "The Great Gospel Christmas Celebration"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-09",
+      "gratis": true,
+      "id": "krsbib-dataveiledning-pa-demo-rona-22-2026-12-09",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/kurs-og-veiledning/dataveiledning-pa-demo-rona-22",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Demo Rona",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "10:00"
+        }
+      ],
+      "tittel": "Dataveiledning"
+    },
+    {
+      "aldersgruppe": "baby",
+      "beskrivelse": "For de aller minste",
+      "dato": "2026-12-09",
+      "gratis": true,
+      "id": "kilden-36579-2026-12-09",
+      "kategorier": [
+        "familie"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/36579-babysang-i-kilden/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Musikksalongen",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "11:30"
+        },
+        {
+          "billett": "gratis",
+          "kl": "12:15"
+        }
+      ],
+      "tittel": "Babysang i Kilden"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-09",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-pa-nodeland-bibliotek-51-2026-12-09",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-pa-nodeland-bibliotek-51",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Nodeland bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Av Sverre Brandt, musikk av Johan Halvorsen",
+      "dato": "2026-12-09",
+      "gratis": false,
+      "id": "kilden-42814-2026-12-09",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42814-reisen-til-julestjernen/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Teater- og operasalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Reisen til Julestjernen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Helene Bøksle synger jul, med Bjøro Håland og mannskoret Gaasehud som gjester.",
+      "dato": "2026-12-09",
+      "gratis": false,
+      "id": "kilden-44512-2026-12-09",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/44512-julekonsert-med-helene-boksle/",
+      "pris": "465–565 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "18:00"
+        },
+        {
+          "billett": "ledig",
+          "kl": "20:30"
+        }
+      ],
+      "tittel": "Julekonsert med Helene Bøksle"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-09",
+      "gratis": null,
+      "id": "sk-darling-west-haubitz-2026-12-09",
+      "kategorier": [
+        "konsert"
+      ],
+      "kilde_navn": "Songkick",
+      "kilde_url": "https://www.songkick.com/venues/2784453-haubitz-hall",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Haubitz Hall, Odderøya",
+      "tider": [],
+      "tittel": "Darling West"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Bibliotekarene tipser om bøker fra høsten, og publikum deler egne favoritter over kaffe og kringle.",
+      "dato": "2026-12-10",
+      "gratis": true,
+      "id": "krsbib-torsdagskringla-bibliotekarenes-bokprat-2026-12-10",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/torsdagskringla/torsdagskringla-bibliotekarenes-bokprat",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Vågsbygd bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "12:00"
+        }
+      ],
+      "tittel": "Torsdagskringla: Bibliotekarenes bokprat"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Konservatoren viser rundt i den historiske juletreutstillingen. Omvisninger hver halvtime.",
+      "dato": "2026-12-10",
+      "gratis": true,
+      "id": "vam-omvisning-juletre-2026-12-10",
+      "kategorier": [
+        "jul",
+        "annet"
+      ],
+      "kilde_navn": "Vest-Agder-museet",
+      "kilde_url": "https://www.vestagdermuseet.no/omvisning-i-historisk-juletreutstilling-i-radhuskvartalet-kristiansand/",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Rådhuskvartalet, Torvet",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "13:00"
+        }
+      ],
+      "tittel": "Omvisning i historisk juletreutstilling"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-10",
+      "gratis": true,
+      "id": "krsbib-sprakkafe-pa-demo-rona-42-2026-12-10",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/sprakkafe-pa-demo-rona-42",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Demo Rona",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "16:00"
+        }
+      ],
+      "tittel": "Språkkafé"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-10",
+      "gratis": true,
+      "id": "krsbib-practica-tu-espanol-pa-hellemyr-120-2026-12-10",
+      "kategorier": [
+        "annet"
+      ],
+      "kilde_navn": "Kristiansand folkebibliotek",
+      "kilde_url": "https://krsbib.no/arrangementer/sprak/practica-tu-espanol-pa-hellemyr-120",
+      "pris": "Gratis",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Hellemyr bibliotek",
+      "tider": [
+        {
+          "billett": "gratis",
+          "kl": "17:00"
+        }
+      ],
+      "tittel": "Practica tu Español"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "3D-projeksjon med juletema på fasaden til Domkirken. Vises flere kvelder utover i desember.",
+      "dato": "2026-12-10",
+      "gratis": null,
+      "id": "jb-lille-hjelper-2026-12-10",
+      "kategorier": [
+        "jul",
+        "familie"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Domkirken (fasaden), Torvet",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "17:30"
+        },
+        {
+          "billett": null,
+          "kl": "18:30"
+        }
+      ],
+      "tittel": "Lille Hjelper og den store juleoppgaven – premiere"
+    },
+    {
+      "aldersgruppe": "familie",
+      "beskrivelse": "Av Sverre Brandt, musikk av Johan Halvorsen",
+      "dato": "2026-12-10",
+      "gratis": false,
+      "id": "kilden-42814-2026-12-10",
+      "kategorier": [
+        "scene",
+        "familie",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/42814-reisen-til-julestjernen/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Teater- og operasalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "17:30"
+        }
+      ],
+      "tittel": "Reisen til Julestjernen"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Secret Garden spiller fra julealbumet sitt og kjente låter, med Cathrine Iversen, Espen Grjotheim og gjester.",
+      "dato": "2026-12-10",
+      "gratis": false,
+      "id": "kilden-44521-2026-12-10",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/44521-sacred-night-en-unik-julekonsert-med-secret-garden/",
+      "pris": "655–695 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Konsertsalen",
+      "tider": [
+        {
+          "billett": "få",
+          "kl": "18:00"
+        },
+        {
+          "billett": "ledig",
+          "kl": "20:30"
+        }
+      ],
+      "tittel": "Sacred Night – julekonsert med Secret Garden"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": "Popkoret gir julen et rytmisk og poppete preg i en konsert uten pause.",
+      "dato": "2026-12-10",
+      "gratis": false,
+      "id": "kilden-51077-2026-12-10",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kilden",
+      "kilde_url": "https://kilden.com/en/program/51077-jul-med-kristiansand-popkor/",
+      "pris": "185–265 kr",
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "bekreftet",
+      "sted": "Kilden · Multisalen",
+      "tider": [
+        {
+          "billett": "ledig",
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Jul med Kristiansand Popkor"
+    },
+    {
+      "aldersgruppe": null,
+      "beskrivelse": null,
+      "dato": "2026-12-10",
+      "gratis": null,
+      "id": "jb-holy-jam-2026-12-10",
+      "kategorier": [
+        "konsert",
+        "jul"
+      ],
+      "kilde_navn": "Kvadraturen",
+      "kilde_url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/",
+      "pris": null,
+      "sist_sjekket": "2026-11-10",
+      "slutt_dato": null,
+      "status": "må_sjekkes",
+      "sted": "Domkirken",
+      "tider": [
+        {
+          "billett": null,
+          "kl": "19:00"
+        }
+      ],
+      "tittel": "Julekonsert med Holy Jam Blå Kors"
+    }
+  ],
+  "kilder": [
+    {
+      "antall": 67,
+      "merknad": "Eget program lest til 12. desember. Tre nye produksjoner 10. desember; billettstatus endret for Heavy Breathers, Janove, Ein slags julekonsert og Sissels jul. Ved Secret Garden kl. 20:30 oppgir arrangementssiden feil ukedag («tirsdag»); programmet sier torsdag 10. desember.",
+      "navn": "Kilden",
+      "status": "ok",
+      "url": "https://kilden.com/en/program/"
+    },
+    {
+      "antall": 59,
+      "merknad": "Side 1 og 5–9 lest i dag; ny Bibliotekfest 12. november og tre nye 10. desember. Øvrige beholdt fra tidligere.",
+      "navn": "Kristiansand folkebibliotek",
+      "status": "delvis",
+      "url": "https://krsbib.no/arrangementer"
+    },
+    {
+      "antall": 8,
+      "merknad": "Eget program lest. Ny omvisning i juletreutstillingen 10. desember; arrangementer i andre kommuner utelatt.",
+      "navn": "Vest-Agder-museet",
+      "status": "ok",
+      "url": "https://www.vestagdermuseet.no/arrangementer/"
+    },
+    {
+      "antall": 43,
+      "merknad": "Julebyens program lest; to nye arrangementer 10. desember (må sjekkes). Kalendersiden laster ikke uten JavaScript.",
+      "navn": "Kvadraturen",
+      "status": "delvis",
+      "url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/"
+    },
+    {
+      "antall": 37,
+      "merknad": "Bare side 1 kan leses; sidetallsparameteren virker ikke herfra. Ingen endringer funnet.",
+      "navn": "Kultur i kveld",
+      "status": "delvis",
+      "url": "https://kulturikveld.no/arrangementer/kristiansand"
+    },
+    {
+      "antall": 10,
+      "merknad": "Søk ga ingen nye daterte arrangementer i perioden. Data fra tidligere beholdt.",
+      "navn": "Vaktbua (Tikkio)",
+      "status": "delvis",
+      "url": "https://tikkio.com/"
+    },
+    {
+      "antall": 3,
+      "merknad": "Samleside lest; ingen nye i perioden. «Dirty Old Town» ignorert; Grimstad og Mandal utelatt.",
+      "navn": "Songkick",
+      "status": "delvis",
+      "url": "https://songkick.com/metro-areas/31421-norway-kristiansand"
+    },
+    {
+      "antall": 1,
+      "merknad": "Lest i dag; alle arrangementer i perioden allerede med.",
+      "navn": "Consequence (KRS Live)",
+      "status": "delvis",
+      "url": "https://concerts.consequence.net/venues/krs-live"
+    },
+    {
+      "antall": 1,
+      "merknad": "Siden kunne ikke åpnes i dag (feil hos nettstedet).",
+      "navn": "Fjord Line",
+      "status": "feilet",
+      "url": "https://fjordline.com/da/norge/inspiration/julekos-i-kristiansand"
+    },
+    {
+      "antall": 1,
+      "merknad": "Terminlisten lest. Én hjemmekamp i perioden, 29. november.",
+      "navn": "IK Start",
+      "status": "ok",
+      "url": "https://www.ikstart.no/terminliste"
+    },
+    {
+      "antall": 0,
+      "merknad": "Kalenderen viser ingen arrangementer i perioden.",
+      "navn": "Kunstsilo",
+      "status": "feilet",
+      "url": "https://www.kunstsilo.no/en/kunstsilo-live"
+    },
+    {
+      "antall": 0,
+      "merknad": "Siden har ingen daterte arrangementer.",
+      "navn": "Visit Sørlandet",
+      "status": "feilet",
+      "url": "https://en.visitsorlandet.com/destinations/kristiansand/whats-on-in-kristiansand/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Søk ga ingen arrangementskalender for perioden.",
+      "navn": "Kristiansand kommune",
+      "status": "feilet",
+      "url": "https://www.kristiansand.kommune.no/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Kunne ikke åpnes herfra.",
+      "navn": "Ticketmaster",
+      "status": "feilet",
+      "url": "https://www.ticketmaster.no/discover/kristiansand"
+    },
+    {
+      "antall": 0,
+      "merknad": "Bare via søk; ingen nye Kristiansand-arrangementer i perioden.",
+      "navn": "Tikkio",
+      "status": "delvis",
+      "url": "https://tikkio.com/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Ikke forsøkt på nytt i dag; siden krever JavaScript.",
+      "navn": "Hoopla",
+      "status": "feilet",
+      "url": "https://hoopla.no/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Ikke forsøkt på nytt i dag; forsiden viste tidligere ingen arrangementer i Kristiansand.",
+      "navn": "Billetto",
+      "status": "feilet",
+      "url": "https://billetto.no/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Lest via Consequence; tre konserter i perioden, alle allerede med.",
+      "navn": "Kick Scene",
+      "status": "delvis",
+      "url": "https://concerts.consequence.net/venues/kick-scene"
+    },
+    {
+      "antall": 0,
+      "merknad": "Egen side ikke funnet; Songkick og Julebyen lest. Ingen nye i perioden.",
+      "navn": "Kafé Krank",
+      "status": "delvis",
+      "url": "https://kulturikveld.no/arrangementer/kristiansand"
+    },
+    {
+      "antall": 0,
+      "merknad": "Egen side ikke funnet. Lest via Consequence i dag.",
+      "navn": "KRS Live",
+      "status": "delvis",
+      "url": "https://concerts.consequence.net/venues/krs-live"
+    },
+    {
+      "antall": 0,
+      "merknad": "Ikke forsøkt i dag; teateret.no tillater ikke automatisk lesing. Lest via Kultur i kveld og Julebyen.",
+      "navn": "Caféteatret",
+      "status": "feilet",
+      "url": "https://teateret.no/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Fant ikke arrangørens side. Julemarkedet er lest via Julebyen.",
+      "navn": "Posebyhaven",
+      "status": "feilet",
+      "url": "https://kvadraturen.no/julebyen-kristiansand/se-hva-som-skjer-i-julebyen-kristiansand/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Ikke forsøkt i dag. Tidligere søk ga ingen daterte arrangementer.",
+      "navn": "Kristiansand Kunsthall",
+      "status": "feilet",
+      "url": "https://www.visitnorway.no/listings/kristiansand-kunsthall/19883/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Ikke forsøkt i dag. Tidligere søk fant ingen daterte arrangementer.",
+      "navn": "Agder naturmuseum",
+      "status": "feilet",
+      "url": "https://www.visitnorway.no/listings/naturmuseum-og-botanisk-hage-universitetet-i-agder/19945/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Søk i dag ga ingen datoer for julearrangementer.",
+      "navn": "Dyreparken",
+      "status": "feilet",
+      "url": "https://www.visitnorway.com/listings/dyreparken-i-kristiansand/21056/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Ikke forsøkt i dag. DNT-dag og Jul i Skumland er bare nevnt i Julebyen.",
+      "navn": "Aquarama",
+      "status": "feilet",
+      "url": "https://www.visitnorway.no/listings/aquarama/23702/"
+    },
+    {
+      "antall": 0,
+      "merknad": "Ikke forsøkt i dag. Tidligere søk ga ingen daterte arrangementer.",
+      "navn": "Vitensenteret Sørlandet",
+      "status": "feilet",
+      "url": "https://www.uia.no/english/research/vitensenteret/about.html"
+    },
+    {
+      "antall": 0,
+      "merknad": "Ikke forsøkt i dag. Ingen andre hjemmekamper funnet tidligere.",
+      "navn": "Andre idrettslag",
+      "status": "feilet",
+      "url": "https://www.fjordnorway.com/no/arrangementer/blno-2627-gimle-basket---tnt-towers-0mg666itd6ecfy8qcdga"
+    }
+  ],
+  "oppdatert": "2026-11-10T06:44:07+01:00",
+  "periode_dager": 30,
+  "rapport": {
+    "avlyste": 0,
+    "endrede": 9,
+    "nye": 10,
+    "sammendrag": "10 nye arrangementer, blant annet Secret Garden og Kristiansand Popkor i Kilden 10. desember og Bibliotekfest på Hellemyr 12. november. 9 arrangementer har endret billettstatus eller pris, 1 passert er fjernet, og ingen nye avlysninger ble funnet."
+  }
+}
