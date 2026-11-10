@@ -144,6 +144,10 @@ footer .credit a{color:inherit}
 .areas li{font-size:13.5px;border-radius:999px;background:var(--bg);border:1px solid var(--line);padding:3px 10px}
 .place .note{font-size:13px;color:var(--muted)}
 .go{font-weight:600}
+.group{font:700 15px/1.2 var(--body,inherit);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:22px 0 -4px}
+.group:first-child{margin-top:0}
+.times{margin:0;padding:0;list-style:none;display:grid;gap:4px;font-size:14px}
+.times li{display:flex;gap:10px}.times b{min-width:9.5em;font-weight:600}
 .topnav .links{display:flex;gap:14px;flex-wrap:wrap}
 /* Om-siden */
 .prose{display:grid;gap:28px;max-width:65ch}
