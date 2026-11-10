@@ -1,3 +1,3 @@
-# Testperiode: siden skal ikke vises i søkemotorer ennå.
+# Siden skal ikke vises i søkemotorer ennå.
 User-agent: *
 Disallow: /
