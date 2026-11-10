@@ -1,0 +1,115 @@
+{
+ "_om": "Kartposisjon per sted. Nøkkelen er stedsnavnet slik det står i arrangementenes felt «sted» (før « · » eller komma). Koordinater fra OpenStreetMap (Nominatim).",
+ "Kilden": {
+  "lat": 58.13921,
+  "lon": 7.99709
+ },
+ "Teateret": {
+  "lat": 58.14296,
+  "lon": 7.99544
+ },
+ "Vaktbua": {
+  "lat": 58.14064,
+  "lon": 7.9976
+ },
+ "Vågsbygd bibliotek": {
+  "lat": 58.12553,
+  "lon": 7.95313
+ },
+ "Hovedbiblioteket": {
+  "lat": 58.1458,
+  "lon": 7.99387
+ },
+ "KRS Live": {
+  "lat": 58.1488,
+  "lon": 8.00289
+ },
+ "Domkirken": {
+  "lat": 58.14611,
+  "lon": 7.99461
+ },
+ "Kristiansand Domkirke": {
+  "lat": 58.14611,
+  "lon": 7.99461
+ },
+ "Nodeland bibliotek": {
+  "lat": 58.15347,
+  "lon": 7.83658
+ },
+ "Hellemyr bibliotek": {
+  "lat": 58.14705,
+  "lon": 7.93488
+ },
+ "Tangvall bibliotek": {
+  "lat": 58.09663,
+  "lon": 7.81498
+ },
+ "Kunstsilo": {
+  "lat": 58.13825,
+  "lon": 7.99703
+ },
+ "Rådhuskvartalet": {
+  "lat": 58.14616,
+  "lon": 7.99638
+ },
+ "Torvet": {
+  "lat": 58.14633,
+  "lon": 7.996
+ },
+ "Sandens": {
+  "lat": 58.14498,
+  "lon": 7.99597
+ },
+ "Vågsbygd kirke": {
+  "lat": 58.12215,
+  "lon": 7.95589
+ },
+ "Posebyhaven": {
+  "lat": 58.1507,
+  "lon": 7.99621
+ },
+ "K14": {
+  "lat": 58.14645,
+  "lon": 7.9926
+ },
+ "Clarion Hotel Ernst": {
+  "lat": 58.14421,
+  "lon": 7.99286
+ },
+ "Fiskebrygga": {
+  "lat": 58.14084,
+  "lon": 7.9951
+ },
+ "Hos Naboen": {
+  "lat": 58.14524,
+  "lon": 7.99349
+ },
+ "Aquarama": {
+  "lat": 58.1468,
+  "lon": 8.00671
+ },
+ "Gimle Gård": {
+  "lat": 58.15849,
+  "lon": 8.00308
+ },
+ "Nodeviga": {
+  "lat": 58.14054,
+  "lon": 8.00025
+ },
+ "Kristiansand Museum": {
+  "lat": 58.16152,
+  "lon": 8.0299
+ },
+ "Sparebanken Norge Arena": {
+  "lat": 58.1537,
+  "lon": 8.03028
+ },
+ "Latinerhaven": {
+  "lat": 58.14673,
+  "lon": 7.99316
+ },
+ "Bakgården": {
+  "lat": 58.14564,
+  "lon": 7.9942
+ }
+}

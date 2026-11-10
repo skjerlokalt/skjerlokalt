@@ -7,6 +7,7 @@
 <title>Skjer i Kristiansand – skjerlokalt.no</title>
 <meta name="description" content="Konserter, scene, sport, marked og aktiviteter for barn og familie i Kristiansand de neste 30 dagene.">
 <link rel="preload" href="../assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/leaflet/leaflet.css">
 <link rel="stylesheet" href="../assets/style.css">
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
 </head>
@@ -46,8 +47,18 @@
       </div>
     </aside>
     <main>
-      <p class="summary" aria-live="polite"><strong id="count"></strong><button id="reset" type="button" hidden>Nullstill filtre</button></p>
-      <div id="list" style="display:grid;gap:24px"></div>
+      <div class="viewbar">
+        <p class="summary" aria-live="polite"><strong id="count"></strong><button id="reset" type="button" hidden>Nullstill filtre</button></p>
+        <div class="tabs" role="tablist" aria-label="Visning">
+          <button type="button" role="tab" id="v-list" aria-selected="true" aria-controls="list">Liste</button>
+          <button type="button" role="tab" id="v-map" aria-selected="false" aria-controls="mapwrap">Kart</button>
+        </div>
+      </div>
+      <div id="list" role="tabpanel" aria-labelledby="v-list" style="display:grid;gap:24px"></div>
+      <div id="mapwrap" role="tabpanel" aria-labelledby="v-map" hidden>
+        <div id="map" aria-label="Kart over arrangementene"></div>
+        <p id="mapnote" class="calnote"></p>
+      </div>
       <details id="about" hidden>
         <summary>Kilder og siste oppdatering</summary>
         <p id="report" class="meta" style="margin-top:10px"></p>
@@ -59,6 +70,7 @@
     <p>skjerlokalt.no er en test. Oversikten samles automatisk hver morgen av kunstig intelligens fra arrangørenes og billettselskapenes egne sider. Sjekk alltid hos arrangøren før du drar. <a href="../om/">Les mer om skjerlokalt.no</a>.</p>
   </footer>
 </div>
+<script src="../assets/leaflet/leaflet.js"></script>
 <script src="../assets/app.js"></script>
 </body>
 </html>

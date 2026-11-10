@@ -96,6 +96,25 @@ td.n{font-variant-numeric:tabular-nums}
 .st-ok{color:var(--sea);font-weight:600}.st-delvis{color:var(--warn);font-weight:600}.st-feilet{color:var(--sold);font-weight:600}
 footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:14px}
 footer p{margin:0 0 4px;max-width:65ch}
+/* Liste / Kart */
+.viewbar{display:flex;flex-wrap:wrap;gap:10px 16px;justify-content:space-between;align-items:center}
+.viewbar .summary{flex:1 1 auto}
+.tabs{display:inline-flex;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:3px}
+.tabs button{border:0;background:none;padding:5px 16px;border-radius:999px;font-weight:600;font-size:14px;color:var(--muted)}
+.tabs button[aria-selected="true"]{background:var(--sea);color:var(--on-sea)}
+#map{height:min(70vh,620px);min-height:360px;border-radius:10px;border:1px solid var(--line);background:var(--panel)}
+@media (prefers-color-scheme:dark){#map .leaflet-tile-pane{filter:invert(.92) hue-rotate(180deg) brightness(.95) contrast(.9)}}
+.pin{display:grid;place-items:center}
+.mapbtn{background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:6px 10px;font-weight:600;font-size:13px;box-shadow:0 1px 4px rgba(0,0,0,.2)}
+.pin span{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--sea);color:var(--on-sea);
+  font:700 13px/1 var(--body);border:2px solid var(--panel);box-shadow:0 1px 4px rgba(0,0,0,.35)}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--panel);color:var(--ink)}
+.leaflet-container{font:inherit}
+.leaflet-container a{color:var(--sea)}
+.pop strong{font:700 15px/1.2 var(--display)}
+.pop ul{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:5px;font-size:13px}
+.pop .pd{display:block;color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+.pmore{margin:6px 0 0;font-size:12px;color:var(--muted)}
 /* Om-siden */
 .prose{display:grid;gap:28px;max-width:65ch}
 .prose h2{font:700 22px/1.2 var(--display);margin:0 0 8px}

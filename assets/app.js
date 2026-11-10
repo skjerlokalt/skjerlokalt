@@ -49,7 +49,7 @@ function passes(e){
   return true;
 }
 function render(){
-  renderPeriods();renderCal();renderList();
+  renderPeriods();renderCal();renderList();if(S.view==='kart')renderMap();
   const dirty=S.period!=='alle'||S.day||S.cats.size||S.q||S.free||S.hideSold||S.onlyConf;
   $('reset').hidden=!dirty;
 }
@@ -94,10 +94,10 @@ function rowHtml(e){
 function renderList(){
   if(!S.data)return;
   const [from,to]=periodRange();
-  const groups={};let n=0;
+  const groups={};let n=0;S.shown=[];
   for(const e of S.data.arrangementer||[]){
     if(!passes(e)||endOf(e)<from||e.dato>to)continue;
-    const d=e.dato<from?from:e.dato;(groups[d]=groups[d]||[]).push(e);n++;
+    const d=e.dato<from?from:e.dato;(groups[d]=groups[d]||[]).push(e);n++;S.shown.push(e);
   }
   $('count').textContent=n===1?'1 arrangement':`${n} arrangementer`;
   const days=Object.keys(groups).sort();
@@ -120,6 +120,56 @@ function renderMeta(){
   $('srcs').innerHTML=(D.kilder||[]).map(k=>{const u=safeUrl(k.url);return `<tr><td>${u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(k.navn)}</a>`:esc(k.navn)}</td><td class="st-${esc(k.status)}">${esc(STATUS[k.status]||k.status)}</td><td class="n">${esc(k.antall??'')}</td><td>${esc(k.merknad||'')}</td></tr>`}).join('');
   $('about').hidden=false;
 }
+/* ---- Kart ----
+   Stedene slås opp i data/steder-<by>.json: {"Kilden":{"lat":..,"lon":..}, ...}.
+   Et sted som «Kilden · Konsertsalen» eller «Blå Kors, Posebyen» faller tilbake på navnet før skilletegnet. */
+let MAP=null,LAYER=null;
+function placeOf(e){
+  const P=S.steder||{},s=(e.sted||'').trim();if(!s)return null;
+  for(const k of [s,s.split(' · ')[0],s.split(',')[0],s.replace(/\s*\(.*?\)\s*/g,' ').split(',')[0]]){const v=P[k.trim()];if(v&&typeof v.lat==='number')return {navn:k.trim(),...v}}
+  return null;
+}
+function renderMap(){
+  if(!window.L||!S.data)return;
+  if(!MAP){
+    MAP=L.map('map',{scrollWheelZoom:false,zoomControl:true}).setView([58.146,7.995],13);
+    L.tileLayer('https://cache.kartverket.no/v1/wmts/1.0.0/topograatone/default/webmercator/{z}/{y}/{x}.png',
+      {maxZoom:18,attribution:'&copy; <a href="https://www.kartverket.no/" target="_blank" rel="noopener">Kartverket</a>'}).addTo(MAP);
+    LAYER=L.layerGroup().addTo(MAP);
+    MAP.on('dragstart',()=>{S.mapMoved=true});
+    const All=L.Control.extend({options:{position:'topright'},onAdd(){const b=L.DomUtil.create('button','mapbtn');b.type='button';b.textContent='Hele kommunen';
+      L.DomEvent.on(b,'click',ev=>{L.DomEvent.stop(ev);if(S.mapPts?.length){S.mapMoved=true;MAP.fitBounds(S.mapPts,{padding:[30,30],maxZoom:15})}});return b}});
+    new All().addTo(MAP);
+  }
+  LAYER.clearLayers();
+  const byPlace={};let missing=0;
+  for(const e of S.shown||[]){const p=placeOf(e);if(!p){missing++;continue}(byPlace[p.navn]=byPlace[p.navn]||{p,ev:[]}).ev.push(e)}
+  const pts=[];
+  for(const {p,ev} of Object.values(byPlace)){
+    ev.sort((a,b)=>(a.dato+(a.tider?.[0]?.kl||'99')).localeCompare(b.dato+(b.tider?.[0]?.kl||'99')));
+    const rows=ev.slice(0,8).map(e=>{const u=safeUrl(e.kilde_url);const t=e.tider?.[0]?.kl?` kl. ${esc(e.tider[0].kl)}`:'';
+      const ti=u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(e.tittel)}</a>`:esc(e.tittel);
+      return `<li><span class="pd">${esc(shortDay(e.dato))}${t}</span>${ti}${e.status==='avlyst'?' <em>(avlyst)</em>':''}</li>`}).join('');
+    const more=ev.length>8?`<p class="pmore">+ ${ev.length-8} til. Se listen.</p>`:'';
+    const icon=L.divIcon({className:'pin',html:`<span>${ev.length}</span>`,iconSize:[28,28],iconAnchor:[14,14],popupAnchor:[0,-14]});
+    L.marker([p.lat,p.lon],{icon,title:`${p.navn}: ${ev.length} arrangementer`,keyboard:true})
+      .bindPopup(`<div class="pop"><strong>${esc(p.navn)}</strong><ul>${rows}</ul>${more}</div>`,{maxWidth:280}).addTo(LAYER);
+    pts.push([p.lat,p.lon]);
+  }
+  $('mapnote').textContent=missing?`${missing} ${missing===1?'arrangement':'arrangementer'} mangler kartposisjon og vises bare i listen.`:'';
+  S.mapPts=pts;
+  /* Først vises sentrum, der det meste skjer. «Hele kommunen» zoomer ut til alle stedene. */
+  if(!S.mapMoved){const near=pts.filter(([a,b])=>Math.abs(a-58.146)<.012&&Math.abs(b-7.996)<.02);
+    if(near.length)MAP.fitBounds(near,{padding:[40,40],maxZoom:16});else if(pts.length)MAP.fitBounds(pts,{padding:[30,30],maxZoom:15})}
+  setTimeout(()=>MAP.invalidateSize(),0);
+}
+function setView(v){
+  S.view=v;const map=v==='kart';
+  $('list').hidden=map;$('mapwrap').hidden=!map;
+  $('v-list').setAttribute('aria-selected',!map);$('v-map').setAttribute('aria-selected',map);
+  try{history.replaceState(null,'',map?'#kart':location.pathname)}catch(e){}
+  if(map)renderMap();
+}
 function fail(msg){$('stamp').textContent='';$('count').textContent='';$('list').innerHTML=`<p class="notice">${esc(msg)}</p>`}
 
 $('cats').innerHTML=CATS.map(([k,l])=>`<button type="button" class="chip" data-c="${k}" aria-pressed="false">${l}</button>`).join('');
@@ -133,7 +183,14 @@ $('f-conf').addEventListener('change',e=>{S.onlyConf=e.target.checked;render()})
 $('more').addEventListener('click',e=>{const o=$('extra').classList.toggle('open');e.currentTarget.setAttribute('aria-expanded',o)});
 $('reset').addEventListener('click',()=>{Object.assign(S,{period:'alle',day:null,q:'',free:false,hideSold:false,onlyConf:false});S.cats.clear();
   $('q').value='';['f-free','f-sold','f-conf'].forEach(i=>$(i).checked=false);document.querySelectorAll('[data-c]').forEach(b=>b.setAttribute('aria-pressed','false'));render()});
+$('v-list').addEventListener('click',()=>setView('liste'));
+$('v-map').addEventListener('click',()=>setView('kart'));
+addEventListener('hashchange',()=>setView(location.hash==='#kart'?'kart':'liste'));
 render();
+if(location.hash==='#kart')setView('kart');
+
+fetch(`../data/steder-${encodeURIComponent(BY)}.json?v=${Date.now()}`,{cache:'no-store'})
+  .then(r=>r.ok?r.json():{}).then(p=>{S.steder=p;if(S.view==='kart')renderMap()}).catch(()=>{S.steder={}});
 
 /* Datafilen hentes uten mellomlagring, slik at morgenens oppdatering vises med en gang. */
 fetch(`../data/${encodeURIComponent(BY)}.json?v=${Date.now()}`,{cache:'no-store'})
