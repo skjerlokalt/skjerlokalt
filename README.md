@@ -22,4 +22,4 @@ Siden er helt statisk og publiseres med GitHub Pages fra grenen `main`.
 ## Dataformat
 
 Toppnivå: `oppdatert` (ISO 8601), `periode_dager`, `arrangementer`, `kilder`, `rapport`.
-Hvert arrangement: `id`, `tittel`, `beskrivelse`, `kategorier` (konsert, klassisk, scene, humor, familie, jul, marked, sport, kirke, annet), `dato`, `slutt_dato`, `tider` ({`kl`, `billett`}), `sted`, `pris`, `gratis`, `aldersgruppe`, `kilde_navn`, `kilde_url`, `sist_sjekket`, `status` (bekreftet, må_sjekkes, avlyst).
+Hvert arrangement: `id`, `tittel`, `beskrivelse`, `kategorier` (konsert, klassisk, scene, humor, familie, jul, marked, sport, kirke, ungdom, spill, annet), `dato`, `slutt_dato`, `tider` ({`kl`, `billett`}), `sted`, `pris`, `gratis`, `aldersgruppe`, `kilde_navn`, `kilde_url`, `sist_sjekket`, `status` (bekreftet, må_sjekkes, avlyst).

@@ -5,7 +5,7 @@
 const OSLO='Europe/Oslo';
 const BY=document.body.dataset.by;
 /* Ett filter kan dekke flere kategorier i dataene: Musikk = konsert + klassisk. */
-const CATS=[['musikk','Musikk',['konsert','klassisk']],['scene','Teater og scene'],['humor','Humor'],['familie','Barn og familie'],['jul','Jul'],['marked','Marked'],['sport','Sport'],['kirke','Kirke'],['annet','Annet']];
+const CATS=[['musikk','Musikk',['konsert','klassisk']],['scene','Teater og scene'],['humor','Humor'],['familie','Barn og familie'],['ungdom','Ungdom'],['jul','Jul'],['marked','Marked'],['sport','Sport'],['spill','Spill og gaming'],['kirke','Kirke'],['annet','Annet']];
 const CATMAP=Object.fromEntries(CATS.map(([k,,m])=>[k,m||[k]]));
 const WD=['M','T','O','T','F','L','S'];
 const TICKET={'få':'få billetter','utsolgt':'utsolgt','ved_døra':'billett ved døra','gratis':'gratis'};
@@ -194,7 +194,8 @@ function setView(v){
 }
 function fail(msg){$('stamp').textContent='';$('count').textContent='';$('list').innerHTML=`<p class="notice">${esc(msg)}</p>`}
 
-$('cats').innerHTML=CATS.map(([k,l])=>`<button type="button" class="chip" data-c="${k}" aria-pressed="false">${l}</button>`).join('');
+try{const k=new URLSearchParams(location.search).get('kat');if(k&&CATMAP[k])S.cats.add(k)}catch(e){}
+$('cats').innerHTML=CATS.map(([k,l])=>`<button type="button" class="chip" data-c="${k}" aria-pressed="${S.cats.has(k)}">${l}</button>`).join('');
 $('periods').addEventListener('click',e=>{const b=e.target.closest('[data-p]');if(!b)return;S.period=b.dataset.p;S.day=null;render()});
 $('cal').addEventListener('click',e=>{const b=e.target.closest('[data-d]');if(!b||b.disabled)return;S.day=S.day===b.dataset.d?null:b.dataset.d;render()});
 $('cats').addEventListener('click',e=>{const b=e.target.closest('[data-c]');if(!b)return;const c=b.dataset.c;S.cats.has(c)?S.cats.delete(c):S.cats.add(c);b.setAttribute('aria-pressed',S.cats.has(c));render()});
