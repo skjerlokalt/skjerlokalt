@@ -111,5 +111,29 @@
  "Bakgården": {
   "lat": 58.14564,
   "lon": 7.9942
+ },
+ "Dyreparken": {
+  "lat": 58.18597,
+  "lon": 8.14234
+ },
+ "Grim kirke": {
+  "lat": 58.14803,
+  "lon": 7.97246
+ },
+ "Haubitz Hall": {
+  "lat": 58.13425,
+  "lon": 8.00445
+ },
+ "Justvik kirke": {
+  "lat": 58.20027,
+  "lon": 8.03228
+ },
+ "Oddernes kirke": {
+  "lat": 58.15971,
+  "lon": 8.01357
+ },
+ "Søm kirke": {
+  "lat": 58.15125,
+  "lon": 8.07597
  }
 }
