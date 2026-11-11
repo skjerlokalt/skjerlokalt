@@ -9,7 +9,7 @@
 
 :root{
   --bg:#f3f7f8;--panel:#ffffff;--ink:#10292f;--muted:#566b71;--line:#d3dee1;
-  --sea:#0a6677;--sea-soft:#dcedf0;--on-sea:#ffffff;
+  --sea:#0a6677;--sea-soft:#dcedf0;--on-sea:#ffffff;--brand-grey:#5f7789;
   --warn:#955008;--warn-soft:#f8ead6;--sold:#96303f;
   --display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;
   --body:"Instrument Sans","Segoe UI",system-ui,sans-serif;
@@ -17,7 +17,7 @@
 }
 @media (prefers-color-scheme:dark){:root{
   --bg:#0d1a1e;--panel:#14252a;--ink:#e5eff1;--muted:#9db2b8;--line:#2a3f45;
-  --sea:#62c6d6;--sea-soft:#17363e;--on-sea:#06242b;
+  --sea:#62c6d6;--sea-soft:#17363e;--on-sea:#06242b;--brand-grey:#93a8b8;
   --warn:#efb56b;--warn-soft:#3a2a14;--sold:#f0919e;color-scheme:dark}}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -27,8 +27,8 @@ body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.45 var(--bod
   padding-block:calc(24px + env(safe-area-inset-top,0px)) calc(56px + env(safe-area-inset-bottom,0px))}
 a{color:var(--sea)}
 .wrap{max-width:1080px;margin-inline:auto;display:grid;gap:24px}
-.brand{font:700 15px/1 var(--display);letter-spacing:.01em;color:var(--sea);text-decoration:none;justify-self:start}
-.brand span{color:var(--muted);font-weight:500}
+.brand{font:700 17px/1 var(--display);letter-spacing:.005em;color:var(--brand-grey);text-decoration:none;justify-self:start}
+.brand b{color:var(--sea);font-weight:inherit}
 header{display:grid;gap:6px}
 h1{font:700 clamp(30px,5vw,46px)/1.05 var(--display);margin:0;letter-spacing:-.015em;text-wrap:balance}
 .stamp{color:var(--muted);margin:0}

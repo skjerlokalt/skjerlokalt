@@ -1,32 +1,177 @@
 {
-  "_om": "Katalog over lag, foreninger og møteplasser i Randesund. Bare aktører som står i en konkret kilde. Ny aktør legges inn etter innsending via skjemaet og gjennomgang. Felt: n = navn, k = kategori, o = område, d = kort beskrivelse (egne ord), u = nettside (valgfri), e = offentlig e-post (valgfri), kilde = hvor opplysningene kommer fra.",
-  "kategorier": {
-    "idrett": "Idrett og friluft",
-    "barn": "Barn og unge",
-    "kultur": "Kultur, kor og korps",
-    "tro": "Tro og livssyn",
-    "nabolag": "Nabolag og frivillighet",
-    "moteplass": "Møteplasser",
-    "firma": "Lokale firmaer"
+ "_om": "Katalog over lag, foreninger og møteplasser i Randesund. Bare aktører som står i en konkret kilde. Ny aktør legges inn etter innsending via skjemaet og gjennomgang. Felt: n = navn, k = kategori, o = område, d = kort beskrivelse (egne ord), u = nettside (valgfri), e = offentlig e-post (valgfri), kilde = hvor opplysningene kommer fra.",
+ "kategorier": {
+  "idrett": "Idrett og friluft",
+  "barn": "Barn og unge",
+  "kultur": "Kultur, kor og korps",
+  "tro": "Tro og livssyn",
+  "nabolag": "Nabolag og frivillighet",
+  "moteplass": "Møteplasser",
+  "firma": "Lokale firmaer"
+ },
+ "aktorer": [
+  {
+   "n": "Randesund IL",
+   "k": "idrett",
+   "o": "Sukkevann",
+   "d": "Et av landets største idrettslag, med fotball, håndball, bordtennis, tennis og ski. Hjemmebane på Sukkevann idrettspark.",
+   "kilde": "Wikipedia; Randesund menighets visitasmelding 2025"
   },
-  "aktorer": [
-    {"n":"Randesund IL","k":"idrett","o":"Sukkevann","d":"Et av landets største idrettslag, med fotball, håndball, bordtennis, tennis og ski. Hjemmebane på Sukkevann idrettspark.","kilde":"Wikipedia; Randesund menighets visitasmelding 2025"},
-    {"n":"Kristiansand golfklubb","k":"idrett","o":"Randesund","d":"Golfanlegg i Randesund.","kilde":"Randesund menighets visitasmelding 2025"},
-    {"n":"Sukkevann frisbeegolfpark","k":"idrett","o":"Sukkevann","d":"Mye brukt frisbeegolfpark og friluftsområde.","kilde":"Randesund menighets visitasmelding 2025"},
-    {"n":"Randesund fritidsklubb","k":"barn","o":"Randesund","d":"Kommunens fritidsklubb for barn og unge i bydelen. Se kommunen for sted og åpningstider.","u":"https://www.kristiansand.kommune.no/fritidsenheten","ul":"Kommunen","kilde":"Kristiansand kommune, kartlegging av fritidstilbud"},
-    {"n":"Randesund Skolemusikk","k":"kultur","o":"Randesund","d":"Skolekorps med janitsjarbesetning. Hovedkorpset har deltatt i NM for skolekorps.","kilde":"Randesund menighets visitasmelding 2025"},
-    {"n":"Rabakoret","k":"kultur","o":"Søm","d":"Barnekor for 4–12 år i Søm kirke.","e":"post@rabakoret.no","kilde":"Randesund menighets visitasmelding og årsmelding 2025"},
-    {"n":"Søm kirkekor","k":"kultur","o":"Søm","d":"Voksenkor i Randesund menighet.","u":"https://randesund.no","ul":"Menigheten","kilde":"Randesund menighets visitasmelding 2025"},
-    {"n":"Randolken Venneforening","k":"kultur","o":"Ytre Randesund","d":"Setter opp revy og driver forsamlingslokalet Midgard i Ytre Randesund.","kilde":"Randesund menighets visitasmelding 2025"},
-    {"n":"Randesund historielag","k":"kultur","o":"Frikstad","d":"Lokalhistorisk lag med møter i det gamle kommunehuset på Frikstad.","kilde":"Randesund menighets visitasmelding 2025"},
-    {"n":"Randesund menighet","k":"tro","o":"Søm","d":"Den norske kirke med Søm kirke og Randesund kirke på Frikstad. Babysang, tirsdagsmiddag, kor og konserter.","u":"https://randesund.no","ul":"randesund.no","kilde":"Randesund menighets visitasmelding 2025"},
-    {"n":"Randesund frikirke","k":"tro","o":"Strømme","d":"Frikirke på Strømme med stort speiderarbeid.","kilde":"Randesund menighets visitasmelding 2025"},
-    {"n":"Randesund misjonskirke","k":"tro","o":"Søm","d":"Menighet på Søm med arbeid for barn, unge og unge voksne.","kilde":"Randesund menighets visitasmelding 2025"},
-    {"n":"Ytre Randesund misjonskirke","k":"tro","o":"Ytre Randesund","d":"Menighet med samlinger på Holte skole.","kilde":"Randesund menighets visitasmelding 2025"},
-    {"n":"Frikstad bedehus","k":"tro","o":"Frikstad","d":"Bedehus tilknyttet Indremisjonsforbundet, nær Randesund kirke.","kilde":"Randesund menighets visitasmelding 2025"},
-    {"n":"Randesund bydelsråd","k":"nabolag","o":"Hele bydelen","d":"Paraplyorganisasjon for velforeningene i Randesund og samtalepartner for kommunen.","kilde":"Randesund menighets visitasmelding 2025"},
-    {"n":"Bygdekvinnelaget","k":"nabolag","o":"Frikstad","d":"Møtes i det gamle kommunehuset på Frikstad og er med og arrangerer høsttakkefesten.","kilde":"Randesund menighets visitasmelding 2025"},
-    {"n":"Kristiansand Andelslandbruk","k":"nabolag","o":"Søm","d":"Andelslandbruk med regenerativt jordbruk ved Søm kirke, eid av rundt 70 andelseiere.","kilde":"Randesund menighets visitasmelding 2025"},
-    {"n":"Pop-up bibliotek på Rona senter","k":"moteplass","o":"Rona","d":"Pop-up bibliotek på Rona senter, startet i 2025.","kilde":"Randesund menighets visitasmelding 2025"}
-  ]
+  {
+   "n": "Kristiansand golfklubb",
+   "k": "idrett",
+   "o": "Randesund",
+   "d": "Golfanlegg i Randesund.",
+   "kilde": "Randesund menighets visitasmelding 2025"
+  },
+  {
+   "n": "Sukkevann frisbeegolfpark",
+   "k": "idrett",
+   "o": "Sukkevann",
+   "d": "Mye brukt frisbeegolfpark og friluftsområde.",
+   "kilde": "Randesund menighets visitasmelding 2025"
+  },
+  {
+   "n": "Randesund fritidsklubb",
+   "k": "barn",
+   "o": "Randesund bydelshus",
+   "d": "Kommunal fritidsklubb for 10–18 år i Randesund bydelshus, med klubbkveld på tirsdager og arrangementer enkelte helger.",
+   "u": "https://randesundklubb.wixsite.com/minside",
+   "ul": "Klubbens side",
+   "kilde": "Klubbens egen side; Kristiansand kommune"
+  },
+  {
+   "n": "Randesund Skolemusikk",
+   "k": "kultur",
+   "o": "Randesund",
+   "d": "Skolekorps med janitsjarbesetning. Hovedkorpset har deltatt i NM for skolekorps.",
+   "kilde": "Randesund menighets visitasmelding 2025"
+  },
+  {
+   "n": "Rabakoret",
+   "k": "kultur",
+   "o": "Søm",
+   "d": "Barnekor for 4–12 år i Søm kirke.",
+   "e": "post@rabakoret.no",
+   "kilde": "Randesund menighets visitasmelding og årsmelding 2025"
+  },
+  {
+   "n": "Søm kirkekor",
+   "k": "kultur",
+   "o": "Søm",
+   "d": "Voksenkor i Randesund menighet.",
+   "u": "https://randesund.no",
+   "ul": "Menigheten",
+   "kilde": "Randesund menighets visitasmelding 2025"
+  },
+  {
+   "n": "Randolken Venneforening",
+   "k": "kultur",
+   "o": "Ytre Randesund",
+   "d": "Setter opp revy og driver forsamlingslokalet Midgard i Ytre Randesund.",
+   "kilde": "Randesund menighets visitasmelding 2025"
+  },
+  {
+   "n": "Randesund historielag",
+   "k": "kultur",
+   "o": "Frikstad",
+   "d": "Lokalhistorisk lag med møter i det gamle kommunehuset på Frikstad.",
+   "kilde": "Randesund menighets visitasmelding 2025"
+  },
+  {
+   "n": "Randesund menighet",
+   "k": "tro",
+   "o": "Søm",
+   "d": "Den norske kirke med Søm kirke og Randesund kirke på Frikstad. Babysang, tirsdagsmiddag, kor og konserter.",
+   "u": "https://randesund.no",
+   "ul": "randesund.no",
+   "kilde": "Randesund menighets visitasmelding 2025"
+  },
+  {
+   "n": "Randesund frikirke",
+   "k": "tro",
+   "o": "Strømme",
+   "d": "Frikirke på Strømme med stort speiderarbeid.",
+   "kilde": "Randesund menighets visitasmelding 2025"
+  },
+  {
+   "n": "Randesund misjonskirke",
+   "k": "tro",
+   "o": "Søm",
+   "d": "Menighet på Søm med arbeid for barn, unge og unge voksne.",
+   "kilde": "Randesund menighets visitasmelding 2025"
+  },
+  {
+   "n": "Ytre Randesund misjonskirke",
+   "k": "tro",
+   "o": "Ytre Randesund",
+   "d": "Menighet med samlinger på Holte skole.",
+   "kilde": "Randesund menighets visitasmelding 2025"
+  },
+  {
+   "n": "Frikstad bedehus",
+   "k": "tro",
+   "o": "Frikstad",
+   "d": "Bedehus tilknyttet Indremisjonsforbundet, nær Randesund kirke.",
+   "kilde": "Randesund menighets visitasmelding 2025"
+  },
+  {
+   "n": "Randesund bydelsråd",
+   "k": "nabolag",
+   "o": "Hele bydelen",
+   "d": "Paraplyorganisasjon for velforeningene i Indre og Ytre Randesund, og samtalepartner for kommunen.",
+   "kilde": "Randesund menighets visitasmelding 2025",
+   "u": "https://www.randesundbydelsraad.no/",
+   "ul": "randesundbydelsraad.no"
+  },
+  {
+   "n": "Bygdekvinnelaget",
+   "k": "nabolag",
+   "o": "Frikstad",
+   "d": "Møtes i det gamle kommunehuset på Frikstad og er med og arrangerer høsttakkefesten.",
+   "kilde": "Randesund menighets visitasmelding 2025"
+  },
+  {
+   "n": "Kristiansand Andelslandbruk",
+   "k": "nabolag",
+   "o": "Søm",
+   "d": "Andelslandbruk med regenerativt jordbruk ved Søm kirke, eid av rundt 70 andelseiere.",
+   "kilde": "Randesund menighets visitasmelding 2025"
+  },
+  {
+   "n": "Pop-up bibliotek på Rona senter",
+   "k": "moteplass",
+   "o": "Rona",
+   "d": "Pop-up bibliotek på Rona senter, startet i 2025.",
+   "kilde": "Randesund menighets visitasmelding 2025"
+  },
+  {
+   "n": "Øvre Fuglevikkleiva vel",
+   "k": "nabolag",
+   "o": "Fuglevik",
+   "d": "Velforening i Randesund og medlem av Randesund bydelsråd.",
+   "kilde": "Randesund bydelsråd (styreliste)"
+  },
+  {
+   "n": "Korsvikfjorden Velforening",
+   "k": "nabolag",
+   "o": "Korsvik",
+   "d": "Velforening i Randesund og medlem av Randesund bydelsråd.",
+   "kilde": "Randesund bydelsråd (styreliste)"
+  },
+  {
+   "n": "Strømme Vel",
+   "k": "nabolag",
+   "o": "Strømme",
+   "d": "Velforening i Randesund og medlem av Randesund bydelsråd.",
+   "kilde": "Randesund bydelsråd (styreliste)"
+  },
+  {
+   "n": "Vardåsveien Vel",
+   "k": "nabolag",
+   "o": "Vardåsen",
+   "d": "Velforening i Randesund og medlem av Randesund bydelsråd.",
+   "kilde": "Randesund bydelsråd (styreliste)"
+  }
+ ]
 }
