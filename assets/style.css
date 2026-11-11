@@ -182,3 +182,39 @@ footer .credit a{color:inherit}
 .calmenu a,.calmenu button{display:block;text-align:left;font:500 14px/1.3 var(--body);color:var(--ink);text-decoration:none;background:none;border:0;border-radius:6px;padding:9px 10px;cursor:pointer}
 .calmenu a:hover,.calmenu button:hover{background:var(--sea-soft)}
 .calmenu small{padding:4px 10px 2px;color:var(--muted);font-size:12px}
+/* Bydelsside: katalog, arrangementer i bydelen og innmelding */
+.crumb{margin:0;font-size:13px;color:var(--muted)}.crumb a{color:var(--muted)}
+.btn{display:inline-block;font:600 14px/1 var(--body);border-radius:8px;padding:11px 16px;border:1px solid var(--sea);background:var(--sea);color:var(--on-sea);text-decoration:none;cursor:pointer}
+.sect{font:700 22px/1.2 var(--display);margin:0 0 12px}
+.evlist{list-style:none;margin:0 0 8px;padding:0;display:grid;gap:0;max-width:760px}
+.evlist li{display:grid;grid-template-columns:150px minmax(0,1fr);gap:2px 14px;padding:10px 0;border-bottom:1px solid var(--line)}
+.evday{font-weight:600;font-variant-numeric:tabular-nums;grid-row:span 2}
+.evname a{color:inherit;font-weight:600;text-decoration:none}.evname a:hover{color:var(--sea);text-decoration:underline}
+.evplace{color:var(--muted);font-size:13.5px}
+@media (max-width:560px){.evlist li{grid-template-columns:1fr}.evday{grid-row:auto;font-size:13px;color:var(--sea)}}
+.kfilters{display:grid;gap:10px;margin-bottom:14px}
+#kq{width:100%;max-width:480px;font:inherit;color:inherit;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:9px 12px}
+.chip .n{color:var(--muted);font-size:12px;margin-left:2px}.chip[aria-pressed="true"] .n{color:inherit;opacity:.8}
+.count{margin:0;font-size:13px;color:var(--muted)}
+.kgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin-bottom:10px}
+.kcard{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.kcard h3{font:700 17px/1.25 var(--display);margin:0}
+.kcard p{margin:0;color:var(--muted);font-size:14px}
+.kmeta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.karea{font-size:12.5px;color:var(--muted)}
+.klinks{margin-top:auto;padding-top:6px;display:flex;gap:14px;flex-wrap:wrap;font-size:14px}
+.klinks a{font-weight:600;text-decoration:none}.klinks a:hover{text-decoration:underline}
+.missing{font-size:13px;color:var(--muted)}
+.missing button{background:none;border:0;padding:0;color:var(--warn);font-weight:600;text-decoration:underline;font-size:13px}
+.meld{max-width:680px}.meld>p{margin:0 0 12px;max-width:65ch}
+#kf{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px;display:grid;gap:14px}
+#kf label{display:grid;gap:5px;font-weight:600;font-size:14px}
+#kf .hint{font-weight:400;color:var(--muted);font-size:12.5px}
+#kf input[type=text],#kf input[type=url],#kf input[type=email],#kf select,#kf textarea{font:inherit;font-weight:400;color:inherit;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:9px 12px;width:100%}
+#kf .check{display:flex;gap:8px;align-items:flex-start;font-weight:400}
+#kf .two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:560px){#kf .two{grid-template-columns:1fr}}
+.err{margin:0;color:var(--sold);font-weight:600;font-size:14px;min-height:0}
+.okbox{background:var(--sea-soft);border-radius:10px;padding:14px 16px;margin-top:12px}
+.okbox p{margin:0 0 8px}.okbox pre{white-space:pre-wrap;font-size:13px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px;margin:0}
+.bydeler{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Randesund – lag, foreninger og møteplasser – skjerlokalt.no</title>
+<meta name="description" content="Lag, foreninger, menigheter og møteplasser i Randesund, og hva som skjer i bydelen de neste 30 dagene.">
+<link rel="preload" href="../../assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body data-bydel="randesund">
+<div class="wrap">
+  <header>
+    <nav class="topnav"><a class="brand" href="../../">skjerlokalt.no</a><span class="links"><a class="about" href="../">Skjer i Kristiansand</a><a class="about" href="../../om/">Om oss</a></span></nav>
+    <p class="crumb"><a href="../">Kristiansand</a> / Randesund</p>
+    <h1>Randesund</h1>
+    <p class="lede">Lag, foreninger, menigheter og møteplasser i Søm, Strømme, Korsvik, Dvergsnes og Ytre Randesund, og hva som skjer i bydelen den neste måneden.</p>
+    <p><a class="btn" href="#meld-inn">Meld inn lag eller firma</a></p>
+  </header>
+
+  <section aria-labelledby="h-skjer">
+    <h2 id="h-skjer" class="sect">Skjer i Randesund</h2>
+    <div id="events" class="bevents"><p class="calnote">Henter arrangementer …</p></div>
+  </section>
+
+  <section aria-labelledby="h-kat">
+    <h2 id="h-kat" class="sect">Hvem finnes i bydelen</h2>
+    <div class="kfilters">
+      <input id="kq" type="search" placeholder="Søk etter idrett, kor, menighet …" aria-label="Søk i katalogen" autocomplete="off">
+      <div class="chips" id="kchips" role="group" aria-label="Kategorier"></div>
+      <p class="count" id="kcount" aria-live="polite"></p>
+    </div>
+    <div class="kgrid" id="kgrid"></div>
+    <p class="calnote">Katalogen lenker videre til aktørenes egne sider. Opplysningene er hentet fra offentlige kilder, blant annet Randesund menighets visitasmelding 2025, og kan være utdatert. Mangler lenken, kan laget selv sende den inn.</p>
+  </section>
+
+  <section id="meld-inn" aria-labelledby="h-meld" class="meld">
+    <h2 id="h-meld" class="sect">Meld inn lag, forening eller firma</h2>
+    <p>Det er gratis å stå i katalogen. Alle lag, foreninger, menigheter, kommunale tilbud, møteplasser og lokale firmaer med aktivitet i Randesund kan melde seg inn, og alle vurderes etter de samme kriteriene. Innmeldinger blir sett gjennom før de publiseres.</p>
+    <form id="kf" novalidate>
+      <label>Navn på laget eller firmaet<input type="text" name="navn" required></label>
+      <div class="two">
+        <label>Type<select name="type"><option>Lag eller forening</option><option>Menighet eller livssyn</option><option>Kommunalt tilbud</option><option>Møteplass</option><option>Firma</option><option>Annet</option></select></label>
+        <label>Kategori<select name="kategori" id="kf-kat"></select></label>
+      </div>
+      <label>Område i bydelen<span class="hint">For eksempel Søm, Strømme eller Ytre Randesund</span><input type="text" name="omrade"></label>
+      <label>Nettside, Facebook eller Spond<span class="hint">Lenken folk skal sendes videre til</span><input type="url" name="lenke" placeholder="https://"></label>
+      <label>Kort beskrivelse<span class="hint">Én setning om hva dere driver med, maks 160 tegn</span><textarea name="beskrivelse" rows="2" maxlength="160"></textarea></label>
+      <label>E-post til kontaktperson<span class="hint">Brukes bare til å svare deg, vises ikke på siden</span><input type="email" name="epost" required></label>
+      <label class="check"><input type="checkbox" name="ok"> Jeg representerer aktøren eller har avtalt å melde den inn.</label>
+      <p class="err" id="kf-err" aria-live="polite"></p>
+      <div><button class="btn" type="submit">Lag e-post med innmeldingen</button></div>
+      <p class="calnote">Skjemaet lagrer ingenting på siden. Når du trykker på knappen, åpnes e-postprogrammet ditt med innmeldingen ferdig utfylt, og du sender den selv.</p>
+    </form>
+    <div id="kf-ok" class="okbox" hidden role="status"></div>
+  </section>
+
+  <footer>
+    <p>Sist gjennomgått 11. november 2026. Arrangementene hentes automatisk hver morgen fra arrangørenes egne sider. Sjekk alltid hos arrangøren før du drar.</p>
+    <p class="credit">Utviklet av Tore Ruud Mæland · <a href="mailto:startfase@gmail.com?subject=skjerlokalt.no">Kontakt</a> · <a href="../../om/">Om skjerlokalt.no</a></p>
+  </footer>
+</div>
+<script src="../../assets/katalog.js"></script>
+</body>
+</html>
