@@ -5,7 +5,7 @@
 const OSLO='Europe/Oslo';
 const BY=document.body.dataset.by;
 /* Ett filter kan dekke flere kategorier i dataene: Musikk = konsert + klassisk. */
-const CATS=[['musikk','Musikk',['konsert','klassisk']],['scene','Teater og scene'],['humor','Humor'],['familie','Barn og familie'],['ungdom','Ungdom'],['jul','Jul'],['marked','Marked'],['mat','Mat og drikke'],['sport','Sport'],['spill','Spill og gaming'],['kirke','Kirke'],['annet','Annet']];
+const CATS=[['musikk','Musikk',['konsert','klassisk']],['scene','Teater og scene'],['humor','Humor'],['foredrag','Foredrag og debatt'],['kunst','Utstilling og kunst'],['film','Film'],['familie','Barn og familie'],['ungdom','Ungdom'],['moteplass','Møteplass'],['tur','Tur og friluft'],['jul','Jul'],['marked','Marked'],['mat','Mat og drikke'],['sport','Sport'],['spill','Spill og gaming'],['kirke','Kirke'],['annet','Annet']];
 const CATMAP=Object.fromEntries(CATS.map(([k,,m])=>[k,m||[k]]));
 const WD=['M','T','O','T','F','L','S'];
 const TICKET={'få':'få billetter','utsolgt':'utsolgt','ved_døra':'billett ved døra','gratis':'gratis'};
