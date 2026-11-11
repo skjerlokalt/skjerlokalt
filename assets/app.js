@@ -75,6 +75,67 @@ function renderCal(){
   }
   $('cal').innerHTML=html;
 }
+
+/* «Legg i kalender»: Google-lenke og .ics-fil (Apple, Outlook m.fl.). Ingen data lagres. */
+const BYNAVN={kristiansand:'Kristiansand'};
+function osloToUtc(dato,kl){
+  const [y,m,d]=dato.split('-').map(Number),[h,mi]=kl.split(':').map(Number);
+  const guess=Date.UTC(y,m-1,d,h,mi);
+  const pt=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:OSLO,hourCycle:'h23',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}).formatToParts(new Date(guess)).map(x=>[x.type,x.value]));
+  const asOslo=Date.UTC(+pt.year,+pt.month-1,+pt.day,+pt.hour,+pt.minute);
+  return new Date(guess-(asOslo-guess));
+}
+const stamp=dt=>dt.toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');
+const ymd=s=>s.replace(/-/g,'');
+/* Ett kalenderoppslag per klokkeslett; uten klokkeslett eller over flere dager blir det heldagsoppslag. */
+function calSlots(e){
+  const multi=e.slutt_dato&&e.slutt_dato!==e.dato;
+  const kls=multi?[]:(e.tider||[]).map(x=>x.kl).filter(k=>/^\d\d:\d\d$/.test(k||''));
+  if(!kls.length)return [{label:null,allDay:true,start:ymd(e.dato),end:ymd(add(endOf(e),1))}];
+  return kls.map(kl=>{const st=osloToUtc(e.dato,kl);return {label:kl,allDay:false,start:stamp(st),end:stamp(new Date(st.getTime()+2*36e5))}});
+}
+function calText(e){
+  const u=safeUrl(e.kilde_url),parts=[];
+  if(e.beskrivelse)parts.push(e.beskrivelse);
+  if(e.tider?.length>1)parts.push('Tider: '+e.tider.map(x=>x.kl).join(', '));
+  if(e.pris)parts.push('Pris: '+e.pris);
+  parts.push('Sluttid er ikke oppgitt. Sjekk alltid hos arrangøren før du drar.');
+  if(u)parts.push('Mer info: '+u);
+  parts.push('Fra skjerlokalt.no');
+  return parts.join('\n');
+}
+const calLoc=e=>e.sted?`${e.sted}, ${BYNAVN[BY]||''}`.replace(/, $/,''):(BYNAVN[BY]||'');
+function googleUrl(e,sl){
+  const q=new URLSearchParams({action:'TEMPLATE',text:e.tittel,dates:`${sl.start}/${sl.end}`,details:calText(e),location:calLoc(e),ctz:OSLO});
+  return 'https://calendar.google.com/calendar/render?'+q.toString();
+}
+const icsEsc=s=>String(s||'').replace(/\\/g,'\\\\').replace(/;/g,'\;').replace(/,/g,'\\,').replace(/\r?\n/g,'\\n');
+function icsFold(line){const out=[];let l=line;while(l.length>73){out.push(l.slice(0,73));l=' '+l.slice(73)}out.push(l);return out.join('\r\n')}
+function icsFile(e,sl){
+  const u=safeUrl(e.kilde_url);
+  const L=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//skjerlokalt.no//NO','CALSCALE:GREGORIAN','METHOD:PUBLISH','BEGIN:VEVENT',
+    `UID:${e.id}${sl.label?'-'+sl.label.replace(':',''):''}@skjerlokalt.no`,`DTSTAMP:${stamp(new Date())}`,
+    sl.allDay?`DTSTART;VALUE=DATE:${sl.start}`:`DTSTART:${sl.start}`,sl.allDay?`DTEND;VALUE=DATE:${sl.end}`:`DTEND:${sl.end}`,
+    `SUMMARY:${icsEsc(e.tittel)}`,`LOCATION:${icsEsc(calLoc(e))}`,`DESCRIPTION:${icsEsc(calText(e))}`];
+  if(u)L.push(`URL:${u}`);
+  L.push('BEGIN:VALARM','ACTION:DISPLAY',`DESCRIPTION:${icsEsc(e.tittel)}`,'TRIGGER:-P1D','END:VALARM','END:VEVENT','END:VCALENDAR');
+  return L.map(icsFold).join('\r\n')+'\r\n';
+}
+function calMenu(e){
+  if(e.status==='avlyst')return '';
+  const slots=calSlots(e),many=slots.length>1;
+  const items=slots.map((sl,i)=>{const lbl=many?` kl. ${esc(sl.label)}`:'';
+    return `<a href="${esc(googleUrl(e,sl))}" target="_blank" rel="noopener">Google Kalender${lbl}</a><button type="button" data-ics="${esc(e.id)}" data-slot="${i}">Apple, Outlook og andre${lbl}</button>`}).join('');
+  return `<details class="addcal"><summary>Legg i kalender</summary><div class="calmenu">${items}<small>Apple og Outlook gir påminnelse dagen før.</small></div></details>`;
+}
+function downloadIcs(id,slot){
+  const e=(S.data?.arrangementer||[]).find(x=>x.id===id);if(!e)return;
+  const sl=calSlots(e)[+slot||0];
+  const blob=new Blob([icsFile(e,sl)],{type:'text/calendar;charset=utf-8'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+  a.download=(e.tittel||'arrangement').toLowerCase().normalize('NFKD').replace(/[^\w]+/g,'-').replace(/^-|-$/g,'').slice(0,50)+'.ics';
+  document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1000);
+}
 function rowHtml(e){
   const url=safeUrl(e.kilde_url),off=e.status==='avlyst',unconf=e.status==='må_sjekkes';
   let times;
@@ -91,7 +152,7 @@ function rowHtml(e){
   if(unconf&&url)tags.push(`<a class="srclink" href="${esc(url)}" target="_blank" rel="noopener">Ikke bekreftet – se kilde (${esc(e.kilde_navn||'ukjent')})</a>`);
   else tags.push(`<span>Kilde: ${esc(e.kilde_navn||'ukjent')}</span>`);
   const title=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${esc(e.tittel)}</a>`:esc(e.tittel);
-  return `<article class="row"><div class="times">${times}</div><div class="info"><h3>${title}</h3><p class="meta">${esc(e.sted||'Sted ikke oppgitt')}${e.beskrivelse?' · '+esc(e.beskrivelse):''}</p><div class="tags">${tags.join('')}</div></div></article>`;
+  return `<article class="row"><div class="times">${times}</div><div class="info"><h3>${title}</h3><p class="meta">${esc(e.sted||'Sted ikke oppgitt')}${e.beskrivelse?' · '+esc(e.beskrivelse):''}</p><div class="tags">${tags.join('')}${calMenu(e)}</div></div></article>`;
 }
 function renderList(){
   if(!S.data)return;
@@ -207,6 +268,11 @@ $('more').addEventListener('click',e=>{const o=$('extra').classList.toggle('open
 $('reset').addEventListener('click',()=>{Object.assign(S,{period:'alle',day:null,q:'',free:false,hideSold:false,onlyConf:false,place:null,mapMoved:false});S.cats.clear();
   $('q').value='';['f-free','f-sold','f-conf'].forEach(i=>$(i).checked=false);document.querySelectorAll('[data-c]').forEach(b=>b.setAttribute('aria-pressed','false'));render()});
 $('v-list').addEventListener('click',()=>setView('liste'));
+/* Kalendermenyen: .ics-nedlasting, og lukk åpne menyer ved klikk utenfor. */
+document.addEventListener('click',e=>{
+  const b=e.target.closest('[data-ics]');if(b){downloadIcs(b.dataset.ics,b.dataset.slot);b.closest('details').open=false;return}
+  document.querySelectorAll('details.addcal[open]').forEach(d=>{if(!d.contains(e.target))d.open=false});
+});
 /* «Vis i listen» i et kartmerke filtrerer listen på det stedet. */
 document.addEventListener('click',e=>{const b=e.target.closest('[data-place]');if(!b)return;S.place=b.dataset.place;MAP&&MAP.closePopup();setView('liste');render();scrollTo({top:$('list').getBoundingClientRect().top+scrollY-80,behavior:'smooth'})});
 $('placechip').addEventListener('click',()=>{S.place=null;S.mapMoved=false;render()});
