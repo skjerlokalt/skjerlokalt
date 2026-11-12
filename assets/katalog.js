@@ -2,7 +2,7 @@
    Bydelen styres av <body data-bydel="randesund">. Katalogen ligger i /data/katalog-<bydel>.json. */
 (function(){
 const BYDEL=document.body.dataset.bydel;
-const MOTTAKER='startfase@gmail.com';
+const MOTTAKER='skjerlokalt@gmail.com';
 /* Steder som regnes til bydelen når arrangementer fra bykalenderen plukkes ut. */
 const STEDER={randesund:/\b(Søm|Randesund|Strømme|Dvergsnes|Frikstad|Holte|Sukkevann|Korsvik|Tømmerstø|Rona|Odderhei|Kvarenes|Rabbersvik|Midgard)\b/i};
 const $=id=>document.getElementById(id);
