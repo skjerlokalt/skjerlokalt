@@ -7,18 +7,14 @@
 @font-face{font-family:"Instrument Sans";font-style:normal;font-display:swap;font-weight:500;src:url(fonts/instrument-sans-500.woff2) format("woff2")}
 @font-face{font-family:"Instrument Sans";font-style:normal;font-display:swap;font-weight:600;src:url(fonts/instrument-sans-600.woff2) format("woff2")}
 
+/* Siden er alltid mørk (valgt november 2026). */
 :root{
-  --bg:#f3f7f8;--panel:#ffffff;--ink:#10292f;--muted:#566b71;--line:#d3dee1;
-  --sea:#0a6677;--sea-soft:#dcedf0;--on-sea:#ffffff;--brand-grey:#5f7789;
-  --warn:#955008;--warn-soft:#f8ead6;--sold:#96303f;
-  --display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;
-  --body:"Instrument Sans","Segoe UI",system-ui,sans-serif;
-  color-scheme:light;
-}
-@media (prefers-color-scheme:dark){:root{
   --bg:#0d1a1e;--panel:#14252a;--ink:#e5eff1;--muted:#9db2b8;--line:#2a3f45;
   --sea:#62c6d6;--sea-soft:#17363e;--on-sea:#06242b;--brand-grey:#93a8b8;
-  --warn:#efb56b;--warn-soft:#3a2a14;--sold:#f0919e;color-scheme:dark}}
+  --warn:#efb56b;--warn-soft:#3a2a14;--sold:#f0919e;color-scheme:dark;
+  --display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;
+  --body:"Instrument Sans","Segoe UI",system-ui,sans-serif;
+}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 img{max-width:100%}
@@ -105,7 +101,7 @@ footer .credit a{color:inherit}
 .tabs button{border:0;background:none;padding:5px 16px;border-radius:999px;font-weight:600;font-size:14px;color:var(--muted)}
 .tabs button[aria-selected="true"]{background:var(--sea);color:var(--on-sea)}
 #map{height:min(70vh,620px);min-height:360px;border-radius:10px;border:1px solid var(--line);background:var(--panel)}
-@media (prefers-color-scheme:dark){#map .leaflet-tile-pane{filter:brightness(.72) contrast(1.05) saturate(.85)}}
+#map .leaflet-tile-pane{filter:brightness(.72) contrast(1.05) saturate(.85)}
 .pin{display:grid;place-items:center}
 .mapbtn{background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:6px 10px;font-weight:600;font-size:13px;box-shadow:0 1px 4px rgba(0,0,0,.2)}
 .pin span{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--sea);color:var(--on-sea);
@@ -224,7 +220,7 @@ footer .credit a{color:inherit}
 [data-cat=kunst]{--c:#a03c98}[data-cat=film]{--c:#4f5b6e}[data-cat=familie]{--c:#b88400}[data-cat=ungdom]{--c:#d24a12}
 [data-cat=moteplass]{--c:#0d8577}[data-cat=tur]{--c:#2e8540}[data-cat=jul]{--c:#bf3030}[data-cat=marked]{--c:#8a6a2c}
 [data-cat=mat]{--c:#b4532a}[data-cat=sport]{--c:#1b7dbd}[data-cat=spill]{--c:#5a55d4}[data-cat=kirke]{--c:#6a5a90}
-@media (prefers-color-scheme:dark){[data-cat]{--c2:color-mix(in srgb,var(--c) 62%,#fff)}}
+[data-cat]{--c2:color-mix(in srgb,var(--c) 62%,#fff)}
 body[data-visning=ny] .row{position:relative;padding-left:14px}
 body[data-visning=ny] .row::before{content:"";position:absolute;left:0;top:12px;bottom:12px;width:4px;border-radius:4px;background:var(--c2,var(--c))}
 .cic{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
