@@ -4,6 +4,8 @@
 (function(){
 const OSLO='Europe/Oslo';
 const BY=document.body.dataset.by;
+const ROOT=document.body.dataset.root||'../';
+const NY=document.body.dataset.visning==='ny';
 /* Ett filter kan dekke flere kategorier i dataene: Musikk = konsert + klassisk. */
 const CATS=[['musikk','Musikk',['konsert','klassisk']],['scene','Teater og scene'],['humor','Humor'],['foredrag','Foredrag og debatt'],['kunst','Utstilling og kunst'],['film','Film'],['familie','Barn og familie'],['ungdom','Ungdom'],['moteplass','Møteplass'],['tur','Tur og friluft'],['jul','Jul'],['marked','Marked'],['mat','Mat og drikke'],['sport','Sport'],['spill','Spill og gaming'],['kirke','Kirke'],['annet','Annet']];
 const CATMAP=Object.fromEntries(CATS.map(([k,,m])=>[k,m||[k]]));
@@ -50,7 +52,7 @@ function passes(e){
   return true;
 }
 function render(){
-  renderPeriods();renderCal();renderList();if(S.view==='kart')renderMap();
+  renderPeriods();renderCal();renderList();renderPicks();if(S.view==='kart')renderMap();
   const dirty=S.period!=='alle'||S.day||S.cats.size||S.q||S.free||S.hideSold||S.onlyConf||S.place;
   $('reset').hidden=!dirty;
   $('placechip').hidden=!S.place;if(S.place)$('placechip').innerHTML=`Sted: ${esc(S.place)} <span aria-hidden="true">×</span>`;
@@ -136,6 +138,55 @@ function downloadIcs(id,slot){
   a.download=(e.tittel||'arrangement').toLowerCase().normalize('NFKD').replace(/[^\w]+/g,'-').replace(/^-|-$/g,'').slice(0,50)+'.ics';
   document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1000);
 }
+/* Ny visning: farge og ikon per kategori, datolapp og «Ikke gå glipp av». Styres av <body data-visning="ny">. */
+const CATKEY={};CATS.forEach(([k,,m])=>(m||[k]).forEach(c=>CATKEY[c]=k));
+const ORDER=['jul','kirke','mat','spill','ungdom','familie','sport','film','kunst','foredrag','tur','moteplass','marked','humor','scene','musikk','annet'];
+function catOf(e){const ks=(e.kategorier||[]).map(c=>CATKEY[c]||'annet');for(const k of ['musikk','scene','humor','foredrag','kunst','film','sport','mat','spill','tur','moteplass','marked','familie','ungdom','kirke','jul'])if(ks.includes(k))return k;return ks[0]||'annet'}
+const CATLABEL=Object.fromEntries(CATS.map(([k,l])=>[k,l]));
+const IC={
+ musikk:'<path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/>',
+ scene:'<path d="M4 4h16v6a8 8 0 0 1-16 0z"/><path d="M9 9h.01M15 9h.01M9 13c1.5 1.5 4.5 1.5 6 0"/>',
+ humor:'<circle cx="12" cy="12" r="9"/><path d="M8 14c2 2.5 6 2.5 8 0M9 9h.01M15 9h.01"/>',
+ foredrag:'<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/>',
+ kunst:'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="m3 16 5-5 4 4 3-3 6 6"/><circle cx="15.5" cy="8.5" r="1.5"/>',
+ film:'<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 5v14M17 5v14M3 9h4M3 15h4M17 9h4M17 15h4"/>',
+ familie:'<circle cx="8" cy="6" r="2.5"/><circle cx="16.5" cy="9" r="2"/><path d="M4 21v-6a4 4 0 0 1 8 0v6M13.5 21v-4a3 3 0 0 1 6 0v4"/>',
+ ungdom:'<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
+ moteplass:'<path d="M4 5h11v8H8l-4 3z"/><path d="M15 9h5v8l-3-2h-6v-2"/>',
+ tur:'<path d="m3 20 6-11 4 7 2-3 6 7z"/><circle cx="17" cy="6" r="2"/>',
+ jul:'<path d="m12 2 2.5 5 5.5.8-4 3.9.9 5.5L12 14.6 7.1 17.2l.9-5.5-4-3.9 5.5-.8z"/>',
+ marked:'<path d="M3 9h18l-2-5H5zM5 9v11h14V9M9 20v-6h6v6"/>',
+ mat:'<path d="M7 3v8M5 3v5a2 2 0 0 0 4 0V3M7 11v10M17 3c-2 0-3 3-3 6v3h3v9"/>',
+ sport:'<circle cx="12" cy="12" r="9"/><path d="m12 7 4 3-1.5 4.5h-5L8 10z"/>',
+ spill:'<rect x="2" y="7" width="20" height="11" rx="5"/><path d="M7 10v5M4.5 12.5h5M15 11h.01M18 13h.01"/>',
+ kirke:'<path d="M12 2v6M9 5h6M5 22V12l7-4 7 4v10M10 22v-5h4v5"/>',
+ annet:'<circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="9"/>'};
+const icon=k=>`<svg class="cic" viewBox="0 0 24 24" aria-hidden="true">${IC[k]||IC.annet}</svg>`;
+function pickReason(e,t){
+  if(e.tider?.some(x=>x.billett==='få'))return 'Få billetter igjen';
+  const w=dow(e.dato);if(w>=4&&e.dato<=add(t,7))return w===4?'Fredag':w===5?'Lørdag':'Søndag';
+  if(e.gratis&&(e.kategorier||[]).includes('familie'))return 'Gratis for familien';
+  return null;
+}
+function renderPicks(){
+  const box=$('picks');if(!NY||!box||!S.data)return;
+  const t=todayS(),A=S.data.arrangementer||[],count={};A.forEach(e=>{count[e.tittel]=(count[e.tittel]||0)+1});
+  const cand=A.filter(e=>e.dato>=t&&e.dato<=add(t,10)&&e.status==='bekreftet'&&!allSold(e)&&count[e.tittel]<=2)
+    .map(e=>({e,r:pickReason(e,t),s:(e.tider?.some(x=>x.billett==='få')?3:0)+(dow(e.dato)>=4?2:0)+(e.gratis&&(e.kategorier||[]).includes('familie')?2:0)}))
+    .filter(x=>x.r).sort((a,b)=>b.s-a.s||sortKey(a.e).localeCompare(sortKey(b.e)));
+  const seen=new Set(),out=[];for(const x of cand){const k=catOf(x.e);if(seen.has(k)&&out.length<4)continue;seen.add(k);out.push(x);if(out.length>=6)break}
+  if(!out.length){box.hidden=true;return}
+  box.hidden=false;
+  box.innerHTML=`<h2 class="lbl">Ikke gå glipp av</h2><div class="picks">${out.map(({e,r})=>{const k=catOf(e),u=safeUrl(e.kilde_url);
+    return `<a class="pick" data-cat="${k}" ${u?`href="${esc(u)}" target="_blank" rel="noopener"`:''}><span class="pband">${icon(k)}<span>${esc(CATLABEL[k]||'')}</span></span>
+      <span class="pwhy">${esc(r)}</span><strong>${esc(e.tittel)}</strong><span class="pmeta">${esc(fmt(e.dato,{weekday:'short',day:'numeric',month:'short'}).replace(/\./g,''))}${firstKl(e)?' · '+esc(firstKl(e)):''}</span><span class="pmeta">${esc((e.sted||'').split(' · ')[0])}</span></a>`}).join('')}</div>
+    <p class="calnote">Valgt automatisk etter faste regler: få billetter igjen, helg og gratis for familien.</p>`;
+}
+function dayHead(d){
+  if(!NY)return `<h2 class="dayhead">${esc(longDay(d))}<small>uke ${isoWeek(d)}</small></h2>`;
+  const wd=fmt(d,{weekday:'short'}).replace('.',''),mo=fmt(d,{month:'short'}).replace('.','');
+  return `<h2 class="dayhead tile"><span class="dt"><small>${esc(wd)}</small><b>${toD(d).getUTCDate()}</b><small>${esc(mo)}</small></span><span>${esc(longDay(d))}<small>uke ${isoWeek(d)}</small></span></h2>`;
+}
 function rowHtml(e){
   const url=safeUrl(e.kilde_url),off=e.status==='avlyst',unconf=e.status==='må_sjekkes';
   let times;
@@ -152,7 +203,8 @@ function rowHtml(e){
   if(unconf&&url)tags.push(`<a class="srclink" href="${esc(url)}" target="_blank" rel="noopener">Ikke bekreftet – se kilde (${esc(e.kilde_navn||'ukjent')})</a>`);
   else tags.push(`<span>Kilde: ${esc(e.kilde_navn||'ukjent')}</span>`);
   const title=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${esc(e.tittel)}</a>`:esc(e.tittel);
-  return `<article class="row"><div class="times">${times}</div><div class="info"><h3>${title}</h3><p class="meta">${esc(e.sted||'Sted ikke oppgitt')}${e.beskrivelse?' · '+esc(e.beskrivelse):''}</p><div class="tags">${tags.join('')}${calMenu(e)}</div></div></article>`;
+  const ck=catOf(e);
+  return `<article class="row" data-cat="${ck}"><div class="times">${times}</div><div class="info">${NY?`<span class="ctag">${icon(ck)}${esc(CATLABEL[ck]||'')}</span>`:''}<h3>${title}</h3><p class="meta">${esc(e.sted||'Sted ikke oppgitt')}${e.beskrivelse?' · '+esc(e.beskrivelse):''}</p><div class="tags">${tags.join('')}${calMenu(e)}</div></div></article>`;
 }
 function renderList(){
   if(!S.data)return;
@@ -169,7 +221,7 @@ function renderList(){
     return;
   }
   const first=e=>e.tider?.[0]?.kl||'99';
-  $('list').innerHTML=days.map(d=>`<section><h2 class="dayhead">${esc(longDay(d))}<small>uke ${isoWeek(d)}</small></h2>${groups[d].sort((a,b)=>first(a).localeCompare(first(b))).map(rowHtml).join('')}</section>`).join('');
+  $('list').innerHTML=days.map(d=>`<section>${dayHead(d)}${groups[d].sort((a,b)=>first(a).localeCompare(first(b))).map(rowHtml).join('')}</section>`).join('');
 }
 function renderMeta(){
   const D=S.data,up=D.oppdatert?new Date(D.oppdatert):null;
@@ -281,11 +333,11 @@ addEventListener('hashchange',()=>setView(location.hash==='#kart'?'kart':'liste'
 render();
 if(location.hash==='#kart')setView('kart');
 
-fetch(`../data/steder-${encodeURIComponent(BY)}.json?v=${Date.now()}`,{cache:'no-store'})
+fetch(`${ROOT}data/steder-${encodeURIComponent(BY)}.json?v=${Date.now()}`,{cache:'no-store'})
   .then(r=>r.ok?r.json():{}).then(p=>{S.steder=p;if(S.view==='kart')renderMap()}).catch(()=>{S.steder={}});
 
 /* Datafilen hentes uten mellomlagring, slik at morgenens oppdatering vises med en gang. */
-fetch(`../data/${encodeURIComponent(BY)}.json?v=${Date.now()}`,{cache:'no-store'})
+fetch(`${ROOT}data/${encodeURIComponent(BY)}.json?v=${Date.now()}`,{cache:'no-store'})
   .then(r=>{if(!r.ok)throw new Error(r.status);return r.json()})
   .then(d=>{S.data=d;renderMeta();render()})
   .catch(()=>fail('Programmet kan ikke hentes akkurat nå. Prøv igjen om litt.'));
