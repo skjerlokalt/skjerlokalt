@@ -163,5 +163,13 @@
  "Kunnskapsparken": {
   "lat": 58.16264,
   "lon": 8.00663
+ },
+ "Finsland bibliotek": {
+  "lat": 58.27272,
+  "lon": 7.58498
+ },
+ "Flekkerøy bibliotek": {
+  "lat": 58.07866,
+  "lon": 7.996
  }
 }
